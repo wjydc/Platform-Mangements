@@ -1,0 +1,77 @@
+.form-control {
+  min-height: 34px;
+}
+.publicConfigure .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.publicConfigure .container-fluid .publicTitle {
+  margin-bottom: 40px;
+}
+.publicConfigure .container-fluid .publicTitle p {
+  font-size: 18px;
+  color: #919699;
+  border-bottom: 1px solid #e8e9eb;
+  padding: 20px 0 20px 35px;
+}
+.col-sm-2 {
+  padding: 0;
+}
+.promotelink {
+  min-height: 100%;
+}
+.publicConfigure .content .tableContent .form-horizontal {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.publicConfigure .content .tableContent .form-horizontal .form-group {
+  margin-bottom: 20px;
+}
+.publicConfigure .content .tableContent .form-horizontal .form-group .control-label {
+  color: #626262 ;
+}
+.publicConfigure .content .tableContent .form-horizontal .form-group input {
+  color: #7d7d7d ;
+  border: 1px solid #f0f0f0;
+}
+.publicConfigure .content .tableContent .form-horizontal .form-group .col-sm-10 label {
+  color: #ff3737 ;
+  display: none;
+  font-size: 12px;
+}
+.publicConfigure .content .tableContent .form-horizontal .form-group .col-sm-10 label i {
+  margin-right: 5px;
+}
+.publicConfigure .content .tableContent .form-horizontal .wchatIcon .control-label {
+  vertical-align: middle;
+  padding-top: 20px;
+}
+.publicConfigure .content .tableContent .form-horizontal .wchatIcon .col-sm-5 img {
+  width: 80px;
+  height: 80px;
+}
+.publicConfigure .content .tableContent .form-horizontal .wchatIcon .col-sm-3 .btn {
+  color: #22a3f4;
+  border-color: #22a3f4;
+}
+.publicConfigure .content .tableContent .form-horizontal .wchatIcon .col-sm-3 span {
+  color: #bbbebf;
+}
+.publicConfigure .content .submitBtn {
+  text-align: center;
+}
+.publicConfigure .content .submitBtn button {
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  margin: 30px auto;
+}
+.publicConfigure .content .submitBtn .save {
+  background-color: #22a3f4;
+  color: #fff;
+}
+.publicConfigure .content .submitBtn .save:hover {
+  border: none;
+}

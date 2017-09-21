@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通知消息</title>
+    <link href="../../PlugIn/bootstrap3/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/firstpage/firstpage.css">
+</head>
+<body>
+    <div class="wrap">
+         <p class="title">通知公告</p>
+        <ul>
+            <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+             <li >
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+
+            <li >
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+            
+             <li >
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+        
+            <li >
+                <a href="#">
+                    <span>haole1</span>
+                    <span>xiexie123</span>
+                </a>
+            </li>
+          
+        </ul> 
+
+        <!--分页  -->
+        <div class="tcdPageCode"></div>
+
+
+
+    </div>
+
+
+<!-- 模态框 -->
+<div class="modal fade" id="ModalTips" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">七夕活动充值高峰！好书推起来！</h4>
+              </div>
+              <div class="modal-body">
+                    <p class="title">这一周给大家整理汇总了部分优质书籍，可根据派单指数的高低进行选择推广。</p>
+                    <div>
+                        <p>【女频】</p>
+                        <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                        <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                    </div>
+                    <div>
+                            <p>【男频】</p>
+                            <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                            <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                    </div>
+                    <p>------------------------------------------------------------------------------</p>
+                    <p  class="title">除了以上四本精品小说外，以下书单也可供参考选择</p>
+                    <p>现代文：</p>
+                    <p>《蜜宠小萌妻》</p>
+                    <p>《蜜宠小萌妻》</p>
+                
+                    <p>这一周给大家整理汇总了部分优质书籍，可根据派单指数的高低进行选择推广。</p>
+                    <div>
+                        <p>【女频】</p>
+                        <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                        <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                    </div>
+                    <div>
+                            <p>【男频】</p>
+                            <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                            <p>日久见妻心：陆少的神秘娇妻》 老书，转化好</p>
+                    </div>
+                    <p>------------------------------------------------------------------------------</p>
+                    <p>除了以上四本精品小说外，以下书单也可供参考选择</p>
+                    <p>现代文：</p>
+                    <p>《蜜宠小萌妻》</p>
+                    <p>《蜜宠小萌妻》</p>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">知道了</button>
+                   
+            </div>
+          </div>
+        </div>
+</div>
+
+
+</body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../PlugIn/jquery.page.js'></script>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:150,
+        current:4,
+        backFn:function(p){
+        }
+    });
+
+// var ModalTips=$('#ModalTips');
+// var modal=$('.modal');
+$('.wrap ul li').each(function(index,item){
+    $(this).click(function(){
+        $('.wrap ul li').removeAttr('data-toggle');
+        $('.wrap ul li').removeAttr('data-target');
+        $('.wrap ul li').eq(index).attr({
+            'data-toggle':'modal',
+            'data-target': '#ModalTips'
+        })
+
+    })
+
+
+})
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,516 @@
+
+// 公用
+
+.BILL{
+    width:100%;
+    .title{
+    color: #919699;
+    font-size:18px;
+    padding: 15px 0 25px 15px;
+    margin: 0;
+    }
+    // 收益列表
+    .earnList{
+        width:100%;
+        ul{
+            overflow: hidden;
+           margin:0 0 10px 0;
+            display: -webkit-box; //老版本语法：safari,IOS,Android,Old Webkit browsers
+            display:-moz-box;     //老版本语法：Firefox(buggy)
+            display:-ms-flexbox;  //混合版本语法：IE10
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li{
+                width:218px;
+                min-height:80px;
+                border-radius:4px;
+                padding: 20px 0;
+                border:1px solid #e8e9eb;
+                // float: left;
+                // margin-right:20px;
+                margin-bottom: 10px;
+                text-align: center;
+                p{
+                    line-height:25px;
+                }
+                .listTilte{
+                    font-size: 16px;
+                }
+                .listMoney{
+                    color: #ed8e0e ;
+                    font-size: 22px;
+                    .moneyIcon{
+                        font-size: 16px;
+                    }
+                }
+                .listAccount{
+                    font-size: 14px;
+                    color:#919699;
+                }
+            }
+        }
+    }
+    .calendar{
+        width:100%;
+        overflow: hidden;
+        .calendarS{
+            float: left;
+            width:180px;
+            height:30px;
+            line-height: 30px;
+            border:1px solid #e8e9eb;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            input{
+                border:none;
+                width:175px;
+                height:28px;
+                float: left;
+                margin:0;
+                box-shadow: none;
+                outline:none;
+               text-align: center;
+            }
+            i{
+                float: left;
+                margin-top: 5px;
+                color:#e8e9eb;
+            }
+        }
+        .line{
+                float: left;
+                margin:0 5px;
+        }
+        .search{
+            float: left;
+            border-radius: 4px;
+            margin:0 10px;
+           width:35px;
+           height:30px;
+           text-align: center;
+           line-height: 30px;
+           background-color:#22a3f4;
+           cursor: pointer;
+           i{
+               color:#fff ;
+           }
+        }
+        .time{
+            float: left;
+            min-width: 100px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            
+        }
+        // 导出
+        .checkout{
+            float:right;
+            width:100px;
+            height:30px;
+            line-height: 30px;
+            text-align: center;
+            color:#fff;
+            border-radius: 4px;
+            background-color: #22a3f4;
+            cursor: pointer;
+            i{
+                margin-right: 5px;
+            }
+        }
+       
+        .searchinfo{
+            float: left;
+            width:160px;
+            height:30px;
+            border-radius: 4px;
+            border:1px solid #e8e9eb;
+            margin-left:10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            // color: #e8e9eb;
+        
+            input{
+                border:none;
+                width:100%;
+                height:28px;
+                padding:0 5px;
+                border-radius: 4px;
+                font-size: 14px;
+                box-shadow: none;
+            }
+        }
+        .selects{
+            width:120px;
+            height:30px;
+            select{
+                width:100%;
+                height:28px;
+                border:none;
+                 padding:0 5px;
+                border-radius: 4px;
+                 font-size: 14px;
+            }
+        }
+    }
+}
+// 表格
+// .content{
+    .table{
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        vertical-align: middle;
+        thead{
+            background-color:#fff;
+            border-top:none;
+        }
+        th,td,tr{
+            text-align: center;
+            vertical-align: middle;
+        }
+        .rechargeDetail{
+            a{
+                display:inline-block;
+                width:100px;
+                height:30px;
+                line-height: 30px;
+                text-align: center;
+                color:#22a3f4;
+                border:1px solid #22a3f4;
+                margin:0 10px;
+                border-radius: 4px;
+            }
+        }
+    }
+// }
+
+
+
+
+
+
+// 用户统计
+.userSate{
+    table{
+        tr{
+            td{
+                padding: 15px 10px;
+            }
+        }
+    }
+
+   
+}
+
+
+// 渠道统计
+.channelState{
+    .container-fluid{
+        width:100%;
+        padding: 0;
+        .row{
+            width:100%;
+            max-width:none;
+            margin:0;
+        }
+    }
+    .col-md-12{
+        width:100%;
+        padding: 0;
+        .nav{ 
+            margin:0;
+            padding: 0;
+            li{
+                a{
+                    color:#5c6266 ;
+                    padding: 15px 30px;
+                    font-size: 18px;
+                }
+            }
+            li:first-child{
+                a{
+                    border-left-color:transparent;
+                }
+            }
+            .active{
+                a{
+                    color:#22a3f4;
+                    border-top:2px solid #22a3f4;
+                }
+            }
+        }
+    }
+
+    // .searching{
+    //     overflow: hidden;
+    //     margin: 10px 0;
+    //     padding-left: 20px;
+    //     input{
+    //         float: left;
+    //         width:250px;
+    //         height:32px;
+    //         border:1px solid #ddd ;
+    //         border-radius: 4px;
+          
+    //         box-shadow: none;
+    //         margin:0;
+    //         padding-left: 5px;
+    //     }
+    //     .searchbtn{
+    //         width:40px;
+    //         height:32px;
+    //         float: left;
+    //         line-height: 32px;
+    //         border-radius: 4px;
+    //         background-color: #22a3f4;
+    //         text-align: center;
+    //          margin:0 10px;
+    //          cursor: pointer;
+    //         i{
+    //             color:#fff;
+    //             font-size: 14px;
+    //         }
+    //     }
+    //     // 导出
+    //     .checkout{
+    //         float:right;
+    //         width:100px;
+    //         height:30px;
+    //         line-height: 30px;
+    //         text-align: center;
+    //         color:#fff;
+    //         border-radius: 4px;
+    //         background-color: #22a3f4;
+    //         cursor: pointer;
+    //         margin-right: 30px;
+    //         i{
+    //             margin-right: 5px;
+    //         }
+    //     }
+    // }
+    tbody{
+        .cost{
+            input{
+                width:80px;
+                height:28px;
+                border:1px solid #ddd ;
+                border-radius: 4px;
+                margin:0;
+                text-align: center;
+            }
+        }
+    }
+    
+}
+
+
+
+.table{
+    tbody{
+        tr{
+             &:hover{
+                 background-color: #f2f6fa;
+                }
+            td{
+                vertical-align: middle;
+            }
+        }
+        tr:last-child{
+            border-bottom: 1px solid #ddd ;
+        }
+        td{
+            .channelRecharge{
+                display: block;
+                width:100px;
+                height:30px;
+                color: #22a3f4;
+                border:1px solid #22a3f4;
+                border-radius: 4px;
+               text-align: center;
+               line-height: 30px;
+               margin:0 auto;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+ .searching{
+        overflow: hidden;
+        margin: 10px 0;
+        padding-left: 20px;
+        .channelmenu{
+            float: left;
+            width:140px;
+            height:32px;
+            border:1px solid #ddd ;
+            border-radius: 4px;
+        }
+        input{
+            float: left;
+            width:250px;
+            height:32px;
+            border:1px solid #ddd ;
+            border-radius: 4px;
+            box-shadow: none;
+            margin:0;
+            padding-left: 5px;
+        }
+        .searchbtn{
+            width:40px;
+            height:32px;
+            float: left;
+            line-height: 32px;
+            border-radius: 4px;
+            background-color: #22a3f4;
+            text-align: center;
+             margin:0 10px;
+             cursor: pointer;
+            i{
+                color:#fff;
+                font-size: 14px;
+            }
+        }
+        // 导出
+        .checkout{
+            float:right;
+            width:100px;
+            height:30px;
+            line-height: 30px;
+            text-align: center;
+            color:#fff;
+            border-radius: 4px;
+            background-color: #22a3f4;
+            cursor: pointer;
+            margin-right: 30px;
+            i{
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+
+.messagetips{
+    display: block;
+    margin:10px 0 10px 20px;
+    i{
+        font-size: 12px;
+        color:#f7b760;
+    }
+    .tipword{
+        font-size: 12px;
+        color:#bebebe ;
+    }
+    .set{
+        display: inline-block;
+       padding: 1px 5px;
+       
+       
+        border:1px solid #22a3f4; 
+        color:#22a3f4; 
+        font-size: 12px;
+        border-radius: 4px;
+    }
+}
+
+
+
+
+// 公众号配置模态框
+.Public{
+  .modal-header{
+    height:50px;
+    padding: 0;
+    line-height: 50px;
+   color:#fff;
+    .close{
+      margin:0;
+      float: none;
+       position: absolute;
+      top:0;
+      right:0;
+       border-top-right-radius:6px;
+       text-shadow: none;
+        color:#fff;
+        opacity:1;
+      span{
+        display: block;
+        width:50px;
+        height:50px;
+        line-height: 50px;
+        background-color:#33b0ff;
+         border-top-right-radius:6px;
+      }
+    }
+    .modal-title{
+     display: block;
+     width:550px;
+     height:50px;
+    background-color:#22a3f4;
+    padding:0 0 0 20px;
+    line-height: 50px;
+    border-top-left-radius:6px;
+    color:#fff;
+   
+    }
+  }
+  .modal-body{
+    padding: 30px 35px;
+    overflow: hidden;
+  
+   .changeCostInput{
+       width:50%;
+       margin: 0 auto;
+       line-height: 30px;
+    label{
+        color:#f5a408;
+        font-size: 18px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    input{
+        width:80%;
+        height: 30px;
+        border:1px solid #e8e9eb;
+        border-radius: 4px;
+        padding-left: 5px;
+    }
+
+
+   }
+   
+   
+   
+  }
+
+  .modal-footer{
+    text-align: center;
+    border:none;
+    .btn{
+      width:140px;
+      height:35px;
+    }
+    .btn-default{
+      color:#33b0ff ;
+    }
+    
+    .btn-primary{
+      background-color: #33b0ff ;
+      border-color:#33b0ff;
+      color:#fff
+    }
+    
+    
+  }
+}
+
+
+

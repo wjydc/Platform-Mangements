@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" href="../../css/siteSeting/siteSeting.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="siteSeting">
+           
+            <div class="container-fluid">
+                <div class="row title">
+                    <p>站点设置</p>
+                </div>
+                <!-- 内容 -->
+                <div class="tableContent">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">站点名称</label>
+                            <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="请输入素材名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">关键词</label>
+                            <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="请输入关键词">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">描述</label>
+                                <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="描述">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">客服电话</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="请输入Keyword2">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">客服QQ</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="客服QQ">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">客服邮箱</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="客服邮箱">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">客服微信</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="客服微信">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">微信公众号</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="微信公众号">
+                                </div>
+                            </div>
+                    </form>
+
+                    <!-- 二维码 -->
+                </div>
+                   
+            </div>
+               
+          
+          
+        </div>
+            
+<!--模态框  -->
+<!-- 推广链接-模态框 
+<div class="modal fade" id="myModalPro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">添加公众号</h4>
+        </div>
+        <div class="modal-body">
+
+            <div class="linkIcon">
+                <img src="../../img/book3.png" alt="">
+            </div>
+            <p class="title row">
+                    <span class="col-md-3">阅读原文章节</span><span class="col-md-8" style='padding:0'>第三章：皇帝撒粉机上了飞机</span> 
+            </p>
+
+                    
+            <form action="" class="container">
+                <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>派单渠道名称</span>
+                        <input class="col-md-8" type="text"></input> 
+                </div>
+
+                    <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>是否带号</span>
+                        <div class="radio getNum col-md-4">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">否
+                            </label>
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" >是
+                            </label>
+                        </div>
+                        <a href="#" class="col-md-4">什么是强制带号？</a> 
+                </div>
+                
+                    <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>带号章节</span>
+                        
+                        <select class="col-md-8">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                </div>
+                <input class="action" type="button" value="保存修改"></input>      
+            </form>
+
+        </div>
+    </div>
+  </div>
+</div>  -->
+
+
+ 
+
+
+
+
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src="../../js/index.js"></script>
+ <!-- <script src='../../PlugIn/jquery.page.js'></script>
+ <script src='../../PlugIn/clipboard/dist/clipboard.min.js'></script> -->
+<script>
+ 
+
+</script>
+</html>
+
+

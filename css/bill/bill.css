@@ -1,0 +1,409 @@
+.BILL {
+  width: 100%;
+}
+.BILL .title {
+  color: #919699;
+  font-size: 18px;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px solid #e8e9eb;
+}
+.BILL .earnList {
+  width: 100%;
+  margin-top: 20px;
+}
+.BILL .earnList ul {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+.BILL .earnList ul li {
+  width: 218px;
+  min-height: 80px;
+  border-radius: 4px;
+  padding: 20px 0;
+  border: 1px solid #e8e9eb;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.BILL .earnList ul li p {
+  line-height: 25px;
+}
+.BILL .earnList ul li .listTilte {
+  font-size: 16px;
+}
+.BILL .earnList ul li .listMoney {
+  color: #ed8e0e ;
+  font-size: 22px;
+}
+.BILL .earnList ul li .listMoney .moneyIcon {
+  font-size: 16px;
+}
+.BILL .earnList ul li .listAccount {
+  font-size: 14px;
+  color: #919699;
+}
+.BILL .calendar {
+  width: 100%;
+  overflow: hidden;
+}
+.BILL .calendar .calendarS {
+  float: left;
+  width: 165px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #e8e9eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.BILL .calendar .calendarS input {
+  border: none;
+  width: 160px;
+  height: 28px;
+  float: left;
+  margin: 0;
+  box-shadow: none;
+  outline: none;
+  text-align: center;
+  font-size: 13px;
+}
+.BILL .calendar .calendarS i {
+  float: left;
+  margin-top: 5px;
+  color: #e8e9eb;
+}
+.BILL .calendar .line {
+  float: left;
+  margin: 0 5px;
+}
+.BILL .calendar .search {
+  float: left;
+  border-radius: 4px;
+  margin: 0 10px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #22a3f4;
+  cursor: pointer;
+}
+.BILL .calendar .search i {
+  color: #fff ;
+}
+.BILL .calendar .time {
+  float: left;
+  min-width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+}
+.BILL .calendar .checkout {
+  float: right;
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #22a3f4;
+  cursor: pointer;
+  font-size: 13px;
+}
+.BILL .calendar .checkout i {
+  margin-right: 5px;
+}
+.BILL .calendar .searchinfo {
+  float: left;
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e8e9eb;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.BILL .calendar .searchinfo input {
+  border: none;
+  width: 100%;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: none;
+}
+.BILL .calendar .selects {
+  width: 120px;
+  height: 30px;
+}
+.BILL .calendar .selects select {
+  width: 100%;
+  height: 28px;
+  border: none;
+  padding: 0 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.table {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  vertical-align: middle;
+}
+.table thead {
+  background-color: #fff;
+  border-top: none;
+}
+.table th,
+.table td,
+.table tr {
+  text-align: center;
+  vertical-align: middle;
+}
+.table .rechargeDetail a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #22a3f4;
+  border: 1px solid #22a3f4;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+.userSate table tr td {
+  padding: 15px 10px;
+}
+.channelState .container-fluid {
+  width: 100%;
+  padding: 0;
+}
+.channelState .container-fluid .row {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+.channelState .col-md-12 {
+  width: 100%;
+  padding: 0;
+}
+.channelState .col-md-12 .nav {
+  margin: 0;
+  padding: 0;
+}
+.channelState .col-md-12 .nav li a {
+  color: #5c6266 ;
+  padding: 20px 30px;
+  font-size: 18px;
+}
+.channelState .col-md-12 .nav li:first-child a {
+  border-left-color: transparent;
+}
+.channelState .col-md-12 .nav .active a {
+  color: #22a3f4;
+  border-top: 2px solid #22a3f4;
+}
+.channelState tbody .cost input {
+  width: 80px;
+  height: 28px;
+  border: 1px solid #ddd ;
+  border-radius: 4px;
+  margin: 0;
+  text-align: center;
+}
+.table tbody tr:hover {
+  background-color: #f2f6fa;
+}
+.table tbody tr td {
+  vertical-align: middle;
+}
+.table tbody tr:last-child {
+  border-bottom: 1px solid #ddd ;
+}
+.table tbody td .channelRecharge {
+  display: block;
+  width: 100px;
+  height: 30px;
+  color: #22a3f4;
+  border: 1px solid #22a3f4;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.searching {
+  overflow: hidden;
+  margin: 20px 0 10px;
+  padding-left: 20px;
+}
+.searching .channelmenu {
+  float: left;
+  width: 140px;
+  height: 32px;
+  border: 1px solid #ddd ;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.searching input {
+  float: left;
+  width: 250px;
+  height: 32px;
+  border: 1px solid #e8e9eb;
+  border-radius: 4px;
+  box-shadow: none;
+  margin: 0 10px 0 0;
+  padding-left: 12px;
+  color: #555 ;
+}
+.searching .searchbtn {
+  width: 40px;
+  height: 32px;
+  float: left;
+  line-height: 32px;
+  border-radius: 4px;
+  background-color: #22a3f4;
+  text-align: center;
+  cursor: pointer;
+}
+.searching .searchbtn i {
+  color: #fff;
+  font-size: 14px;
+}
+.searching .checkout {
+  float: right;
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #22a3f4;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.searching .checkout i {
+  margin-right: 5px;
+}
+.messagetips {
+  display: block;
+  margin: 10px 0 10px 20px;
+}
+.messagetips i {
+  font-size: 12px;
+  color: #f7b760;
+}
+.messagetips .tipword {
+  font-size: 12px;
+  color: #bebebe ;
+}
+.messagetips .set {
+  display: inline-block;
+  padding: 1px 5px;
+  border: 1px solid #22a3f4;
+  color: #22a3f4;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.Public .modal-header {
+  height: 50px;
+  padding: 0;
+  line-height: 50px;
+  color: #fff;
+}
+.Public .modal-header .close {
+  margin: 0;
+  float: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 6px;
+  text-shadow: none;
+  color: #fff;
+  opacity: 1;
+}
+.Public .modal-header .close span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #33b0ff;
+  border-top-right-radius: 6px;
+}
+.Public .modal-header .modal-title {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #22a3f4;
+  padding: 0 0 0 20px;
+  line-height: 50px;
+  border-top-left-radius: 6px;
+  color: #fff;
+}
+.Public .modal-body {
+  padding: 30px 35px;
+  overflow: hidden;
+}
+.Public .modal-body .changeCostInput {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.Public .modal-body .changeCostInput label {
+  color: #f5a408;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.Public .modal-body .changeCostInput input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #e8e9eb;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+.Public .modal-footer {
+  text-align: center;
+  border: none;
+}
+.Public .modal-footer .btn {
+  width: 140px;
+  height: 35px;
+}
+.Public .modal-footer .btn-default {
+  color: #33b0ff ;
+}
+.Public .modal-footer .btn-primary {
+  background-color: #33b0ff ;
+  border-color: #33b0ff;
+  color: #fff;
+}
+.BILL .threeList {
+  width: 100%;
+  margin-top: 20px;
+}
+.BILL .threeList ul {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+.BILL .threeList ul li {
+  width: 218px;
+  min-height: 80px;
+  border-radius: 4px;
+  padding: 20px 0;
+  border: 1px solid #e8e9eb;
+  float: none;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+.BILL .threeList ul li:nth-child(1) {
+  float: left;
+}
+.BILL .threeList ul li:nth-child(2) {
+  float: left;
+  margin: 0 130px 10px;
+}
+.BILL .threeList ul li:nth-child(3) {
+  float: left;
+}

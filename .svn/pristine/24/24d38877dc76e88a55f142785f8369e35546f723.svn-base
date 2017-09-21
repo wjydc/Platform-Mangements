@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+}
+// 设置最小屏幕大小
+@media screen and (max-width:700px){
+  html,body{
+    width:700px;
+  }
+}
+@media screen and (min-width:560px){
+  html,body{
+    width:100%;
+    height:100%;
+  }
+}
+html,body{
+  background-color:#e8ebed;
+}
+
+.wrapIndex{
+  width:100%;
+  height:100%;
+  .container, .container-fluid{
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  // 头部
+  .headers{
+    width:100%;
+    min-height: 60px;
+     background-color: #fff;
+    // overflow: hidden;
+   .logo{
+      width:50%;
+      float: left;
+      min-height:60px;
+      overflow: hidden;
+      padding-left: 40px;
+      .logoIcon{
+        width:37px;
+        height:36px;
+        position: relative;
+        top:12px;
+        float:left;
+        margin-right: 10px;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      p{
+        font-size: 18px;
+        font-weight:600;
+        padding-top:20px; 
+      }
+    }
+    .logoUser{
+      float: left;
+      width:50%;
+      min-height:60px;
+      line-height: 60px;
+      font-size: 14px;
+      padding-right: 80px;
+      text-align: right;
+      color:#22a3f4;
+      i{
+        margin-right: 10px;
+      }
+      .btns{
+        
+         color:#22a3f4;
+         display: inline-block;
+         width:80px;
+         text-align: center;
+         margin-left: 20px;
+         &:hover{
+            background-color: #f2f6fa;
+         }
+         
+      }
+      span{
+       
+        display: inline-block;
+        min-width:60px;
+        text-align: center;
+        height:auto;
+      }
+    }
+  }
+
+
+  // 内容
+.content{
+  width:auto;
+  min-height:100%;
+  overflow: hidden;
+  margin:20px 80px 0 80px;
+   background-color: #fff;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+  div{
+    // background-color: #fff;
+  }
+
+  .navLeft{
+    width:200px;
+    height:100%;
+   
+    position:relative;
+    float: left;
+  }
+
+.Division{
+  width:0;
+   border-left:1px solid #e8e9eb;
+   border-right:none;
+   float: left;
+   position: relative;
+}
+  .changeMessage{
+    overflow: hidden;
+    width:auto;
+    height:auto;
+    .Message{
+      width:100%;
+     height:auto;
+      iframe{
+        // display:block;
+        border:none;
+        width:100%;
+        // height:auto;
+        // min-height: 500px;
+        // padding-bottom: 20px;
+      }
+    }
+  }
+
+}
+}
+
+// iframe 页面
+
+
+// .newiframe{
+//   display:none;
+//    min-height: 600px;
+// }
+// #mainFrame{
+//   display:block;
+//   min-height: 600px;
+// }
+
+
+// 导航文字
+
+.MESSAGE{
+  color:#2b3033;
+}
+
+ .icolor{
+  color:#b4bbbf;
+}
+
+.hasmenu{
+	color:#b4bbbf;
+} 
+
+
+
+
+
+
+/* 导航变色处理 */
+.normalColor{
+  background-color: #fff ;
+  color:#2b3033;
+}
+.hoverColor{
+  background-color: #f2f6fa;
+
+}
+.clickColor{
+  background-color: #22a3f4 ;
+  color:#fff ;
+}
+.iColor{
+  color:#fff;
+}

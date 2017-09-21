@@ -1,0 +1,230 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */  
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/  
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */  
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */  
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/  
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/  
+/* button {border:0 none;background-color:transparent;cursor:pointer}    */ 
+a{cursor: pointer;}
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */  
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */  
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */  
+caption {display:none;}    /* 重置表格标题为隐藏 */  
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */  
+/* img{vertical-align:top}  */
+ /* 图片在当前行内的垂直位置 */  
+   
+/* 页面设置 */  
+   
+  /* 取消a标签点击后的虚线框 */  
+a {outline: none;}    
+
+  *{
+    font-family: '微软雅黑';
+  }
+ /* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */  
+/*   
+::selection {color: #fff;background-color: #4C6E78;}      
+::-moz-selection {color: #fff;background-color: #4C6E78;}   
+*/  
+  
+/*清除浮动*/  
+.clear{clear: both;}  
+  
+/*清除浮动--推荐使用*/  
+.clearfix:before,.clearfix:after{content: '';display: table;}  
+.clearfix:after{clear: both;}  
+
+
+.wrap{
+  width:100%;
+  height:auto;
+}
+
+
+.container{
+  width:100%;
+  margin:0;
+}
+
+.submitss{
+    cursor:pointer;
+ }
+
+.textcenter{
+  text-align: center;
+}
+
+
+
+/* 导航变色处理 */
+.normalColor{
+  background-color: #fff ;
+  color:#2b3033;
+}
+.hoverColor{
+  background-color: #f2f6fa;
+
+}
+.clickColor{
+  background-color: #22a3f4 ;
+  color:#fff ;
+}
+
+
+
+
+
+
+/* 模态框样式重置 */
+.modal{
+  top:100px;
+}
+.modal-header{
+  height:50px;
+  padding: 0;
+  line-height: 50px;
+ color:#fff;
+}
+.modal-header .close{
+  margin:0;
+  float: none;
+   position: absolute;
+  top:0;
+  right:0;
+   border-top-right-radius:6px;
+   text-shadow: none;
+    color:#fff;
+    opacity:1;
+}
+.modal-header span{
+  display: block;
+  width:50px;
+  height:50px;
+  line-height: 50px;
+  background-color:#33b0ff;
+   border-top-right-radius:6px;
+ 
+}
+.modal-header .modal-title{
+   display: block;
+   width:100%;
+   height:50px;
+  background-color:#22a3f4;
+  padding:0 0 0 20px;
+  line-height: 50px;
+  border-top-left-radius:6px;
+  color:#fff;
+  font-size:18px;
+}
+
+/* 模态框底部按钮 */
+.modal-footer{
+  text-align: center;
+}
+.modal-footer .cancle{
+  width:140px;
+  height:40px;
+  color:#22a3f4;
+  border:1px solid #22a3f4; 
+}
+
+.modal-footer .save{
+  width:140px;
+  height:40px;
+  color:#fff; 
+  background-color: #22a3f4; 
+  border:1px solid #22a3f4; 
+}
+
+.modal-body .form-group{
+  /* width:85%; */
+  /* margin:0 auto; */
+}
+
+
+
+
+
+
+
+
+
+
+#mainFrame{
+  min-height: 800px;
+  border-left:1px solid #e8e9eb; 
+}
+#mainFrame html{
+ height:100%;
+}
+#mainFrame body{
+  height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+input::-webkit-input-placeholder {
+  color:#ced1d1;
+  }
+input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:red
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:red
+}
+input::-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:red
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

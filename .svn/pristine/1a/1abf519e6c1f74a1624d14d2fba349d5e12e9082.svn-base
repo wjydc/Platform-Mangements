@@ -1,0 +1,393 @@
+/*小说列表  */
+.noval {
+  width: 100%;
+}
+.noval .container {
+  padding: 0;
+  position: relative;
+}
+.noval #myTab li:first-child a {
+  border-left: 1px solid transparent;
+}
+.noval #myTab a {
+  font-size: 18px;
+  padding: 15px 30px;
+}
+.noval #myTab .active a {
+  color: #22a3f4 ;
+  border-top: 2px solid #22a3f4;
+}
+.noval .col-md-8 {
+  padding: 0 0 0 15px;
+}
+.noval .search {
+  width: 40%;
+  padding: 20px 25px 0 30px;
+  overflow: hidden;
+}
+.noval .search i {
+  color: #fff ;
+}
+.noval .search .btn {
+  border-radius: none;
+  background-color: #bfe7ff;
+}
+.noval .tab-content table thead {
+  border: none;
+}
+.noval .tab-content table thead tr {
+  border: none;
+}
+.noval .tab-content table tbody tr:hover {
+  background-color: #f2f6fa;
+}
+.noval .tab-content table tbody tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.noval .tab-content table th {
+  vertical-align: middle;
+  padding: 20px 0;
+}
+.noval .tab-content table td {
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.noval .tab-content .pad {
+  padding-left: 20px;
+  position: relative;
+}
+.noval .tab-content .pad img {
+  width: 74px;
+  height: 92px;
+}
+.noval .tab-content .pad span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -10000;
+  display: inline-block;
+  width: 80%;
+  overflow: hidden;
+}
+.noval .tab-content .textcenter {
+  text-align: center;
+}
+.noval .tab-content .tdTitle {
+  font-size: 16px;
+  color: #2b3033;
+}
+.noval .tab-content p {
+  font-size: 14px;
+  color: #acb8bf;
+  line-height: 30px;
+}
+.novalList {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0 20px 20px;
+}
+.novalList .descript {
+  width: 205px;
+  min-height: 200px;
+  float: left;
+  position: relative;
+}
+.novalList .descript img {
+  width: 205px;
+  height: 255px;
+}
+.novalList .descript .title {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #2b3033;
+}
+.novalList .descript .brief {
+  font-size: 12px;
+  color: #acb8bf;
+  line-height: 25px;
+}
+.novalList .descript .gray {
+  color: #919699;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.novalList .charpterList {
+  overflow: hidden;
+  padding: 0 0 0 10px;
+}
+.novalList .charpterList ul li {
+  min-height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+.novalList .charpterList ul li:hover {
+  background-color: #f2f6fa ;
+}
+.novalList .charpterList ul li:hover .title {
+  color: #22a3f4;
+}
+.novalList .charpterList ul li p {
+  float: left;
+  width: 83%;
+}
+.novalList .charpterList ul li p span {
+  display: inline-block;
+  float: left;
+}
+.novalList .charpterList ul li p .num {
+  margin: 0 10px;
+  min-width: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+.novalList .charpterList ul li p .orange {
+  min-width: 30px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #f6a407;
+  margin-right: 10px;
+  margin-top: 16px;
+  font-size: 10px;
+}
+.novalList .charpterList ul li p .red {
+  min-width: 30px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #fa570f;
+  margin-right: 10px;
+  margin-top: 16px;
+  font-size: 10px;
+}
+.novalList .charpterList ul li p .title {
+  max-width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 50px;
+  font-size: 16px;
+}
+.novalList .charpterList ul li a {
+  width: 115px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  color: #22a3f4;
+  font-size: 14px;
+  margin: 10px 0;
+  border: 1px solid #22a3f4;
+  border-radius: 4px;
+  text-align: center;
+}
+.novalList .tcdPageCode {
+  margin-top: 20px;
+}
+body {
+  overflow-y: auto;
+}
+.novalCopy {
+  width: 100%;
+  height: auto;
+}
+.novalCopy .container .novalCopyImg {
+  width: 60%;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.novalCopy .container .novalCopyImg p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+.novalCopy .container .novalCopyImg img {
+  width: 100%;
+  height: 500px;
+}
+.novalCopy .container .novalContent {
+  width: 60%;
+  margin: 0 auto 100px;
+}
+.novalCopy .container .novalContent .titlesIcon {
+  height: 80px;
+  text-align: center;
+  margin: 20px 0;
+}
+.novalCopy .container .novalContent .titlesIcon img {
+  height: 100%;
+}
+.novalCopy .container .novalContent p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.novalCopy .container .footerNav {
+  width: 100%;
+  padding: 15px 100px ;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid lightgray;
+  background: #fff ;
+}
+.novalCopy .container .footerNav .dropup {
+  float: left;
+  margin-right: 30px;
+}
+.novalCopy .container .footerNav .dropup .btn {
+  border: none;
+  border-radius: none;
+  background-color: none;
+  background-image: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.novalCopy .container .footerNav .dropup .btn:hover {
+  border: 1px solid #e8e9eb;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu {
+  max-width: 480px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: none;
+  -webkit-box-sizing: none;
+  border-radius: 0;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Copy a {
+  width: 98%;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 3px 10px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Cover a img {
+  width: 150px;
+  height: 90px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template {
+  margin-bottom: 5px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template a {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template a img {
+  width: 140px;
+  height: 60px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .guide a {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .fuzhi a {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .col-md-2 button {
+  text-align: center;
+}
+.novalCopy .container .footerNav i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.modal-body .linkIcon {
+  text-align: center;
+}
+.modal-body .linkIcon img {
+  width: 100px;
+  height: 150px;
+}
+.modal-body .title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.modal-body form i {
+  color: #ff5c4d ;
+  font-size: 10px;
+  margin-right: 3px;
+}
+.modal-body form .row {
+  margin: 10px 0;
+  line-height: 45px;
+}
+.modal-body form .row input,
+.modal-body form .row select {
+  height: 45px;
+}
+.modal-body form .row a.col-md-4 {
+  color: blue;
+}
+.modal-body form .action {
+  background-color: #ff5c4d;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  outline: none;
+}
+.modal-body form .radio {
+  margin: 0;
+}
+.modal-body form input[type='radio'] {
+  margin: 0 0 0 -20px;
+  border-radius: 50%;
+}
+.modal-content {
+  margin-top: 80px;
+}
+#myModalPro .modal-body .linkIcon {
+  text-align: center;
+}
+#myModalPro .modal-body .linkIcon img {
+  width: 100px;
+  height: 150px;
+}
+#myModalPro .modal-body .title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+#myModalPro .modal-body form i {
+  color: #ff5c4d ;
+  font-size: 10px;
+  margin-right: 3px;
+}
+#myModalPro .modal-body form .row {
+  margin: 10px 0;
+  line-height: 45px;
+}
+#myModalPro .modal-body form .row input,
+#myModalPro .modal-body form .row select {
+  height: 45px;
+}
+#myModalPro .modal-body form .row a.col-md-3 {
+  color: blue;
+}
+#myModalPro .modal-body form .promoLinkaction {
+  background-color: #ff5c4d;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  outline: none;
+}
+#myModalPro .modal-body form .radio {
+  margin: 0;
+}
+#myModalPro .modal-body form input[type='radio'] {
+  margin: 0 0 0 -20px;
+  border-radius: 50%;
+}

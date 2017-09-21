@@ -1,0 +1,81 @@
+@bordercolor:#f0f0f0;
+.wrap{
+   width:100%;
+   height:auto;
+   .title{
+       font-size: 18px;
+       color:#919699;
+       padding:20px;
+       border-bottom:1px solid @bordercolor;
+   }
+    ul{
+        li{
+            
+            border-bottom:1px solid @bordercolor;
+            a{
+                display: block;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 0 20px;
+                &:hover{
+                    color:#666;
+                    background-color:#f2f6fa ;
+                }
+                span:first-child{
+                    width:78%;
+                    height:60px;
+                   line-height: 60px;
+                   font-size: 16px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: inline-block;
+                    // color:rgba(57,174,245,1);
+                    float:left;
+                }
+                span:nth-child(2){
+                     width:20%;
+                     text-align: right;
+                     overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: inline-block;
+                     height:60px;
+                    line-height: 60px;
+                    color:#bbbebf;
+                    float: right;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+// 模态框
+#ModalTips .modal-body{
+    height: 350px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    p{
+        line-height: 28px;
+    }
+    .title{
+        margin:15px 0 30px;
+    }
+    div{
+        margin-bottom:20px;
+        p{
+            line-height: 28px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

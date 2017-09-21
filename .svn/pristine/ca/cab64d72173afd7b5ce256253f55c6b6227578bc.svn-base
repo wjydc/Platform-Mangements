@@ -1,0 +1,129 @@
+.form-control {
+  min-height: 34px;
+}
+.publicConfigure .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.publicConfigure .container-fluid .publicTitle {
+  height: 50px;
+  line-height: 50px;
+}
+.publicConfigure .container-fluid .publicTitle p {
+  border-top: 2px solid #22a3f4;
+  border-right: 1px solid #e8e9eb ;
+  color: #22a3f4;
+  font-size: 18px;
+  text-align: center;
+}
+.publicConfigure .container-fluid .publicInputs {
+  min-height: 51px;
+  line-height: 51px;
+  border-bottom: 1px solid #e8e9eb ;
+}
+.publicConfigure .container-fluid .publicInputs .col-sm-3,
+.publicConfigure .container-fluid .publicInputs .col-sm-1 {
+  padding: 0 15px 0 0;
+}
+.publicConfigure .container-fluid .publicInputs .row {
+  margin: 0;
+  padding-right: 10px;
+}
+.publicConfigure .container-fluid .publicInputs .button {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.publicConfigure .container-fluid .publicInputs .submitss {
+  background-color: #22a3f4;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  padding: 0;
+}
+.publicConfigure .container-fluid .publicInputs .col-sm-2 {
+  border-left: 1px solid #ddd ;
+  padding-left: 15px;
+}
+.publicConfigure .container-fluid .publicInputs .col-sm-2 .addPublicNum {
+  background-color: #22a3f4;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.publicConfigure .container-fluid .publicInputs .col-sm-2 .addPublicNum i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.col-sm-2 {
+  padding: 0;
+}
+.promotelink {
+  min-height: 100%;
+}
+.publicConfigure .content .table {
+  margin-top: 10px;
+}
+.publicConfigure .content .table th,
+.publicConfigure .content .table td {
+  text-align: center;
+}
+.publicConfigure .content .table tbody tr:hover {
+  background-color: #f2f6fa ;
+}
+.publicConfigure .content .table tbody tr {
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+}
+.publicConfigure .content .table tbody td {
+  vertical-align: middle;
+}
+.publicConfigure .content .table td .AppID {
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+.publicConfigure .content .table .pad {
+  padding-left: 15px;
+}
+.publicConfigure .content .table .operaTion .btn,
+.publicConfigure .content .table .operaTion .btn-default {
+  border-radius: 4px;
+  margin-left: 5px;
+  border-color: #22a3f4;
+  color: #22a3f4;
+  margin: 10px 5px;
+}
+.publicConfigure .content .table .operaTion .btn-group .btn {
+  border-radius: 4px;
+}
+.publicConfigure .content .table .operaTion .dropdown-menu {
+  min-width: 30px;
+  border: none;
+  background: url('../../img/action.png') no-repeat;
+  background-size: 100%;
+}
+.publicConfigure .content .table .operaTion .dropdown-menu a {
+  color: #fff;
+  line-height: 20px;
+}
+.publicConfigure .content .table .operaTion .dropdown-menu a:hover {
+  background-color: transparent;
+}
+#PublicmyModal .warnIcon {
+  overflow: hidden;
+}
+#PublicmyModal .warnIcon .warning {
+  float: right;
+  color: #ff2020 ;
+  display: none;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+
+        <link rel="stylesheet" href="../../css/bill/bill.css" type="text/css">
+       <link rel="stylesheet" type="text/css" href="../../css/cashRegister/register.css">
+    </head>
+    <body>
+        <div class="CashRegister CollectionInfo">
+          
+         <div class="container-fluid">
+            <div class="title">收款信息</div>
+            <div class="chooseWays">
+                <div class="tabBtn">
+                    <div class="AlipayWay ways active">
+                        <label class="checked" data-id='1'  name='Alipay'   for="Alipay"></label>支付宝
+                    </div>
+                    <div class="BankCardWay ways">
+                        <label data-id='1'  name='BankCard'   for="BankCard"></label>银行卡
+                    </div>
+                </div>
+                <!--支付宝  -->
+                <div class="payWays show">
+                    <form>
+                       <div>
+                           <label for="">支付宝账号</label>
+                           <input type="text" name="" value="">
+                       </div>
+                       <div>
+                           <label for="">真实姓名</label>
+                           <input type="text" name="" value="">
+                       </div>
+                        <div>
+                           <label for="">常用手机号</label>
+                           <input type="text" name="" value="">
+                       </div>
+                    </form>
+                </div>
+                <!--银行卡  -->
+                 <div class="payWays">
+                    <form>
+                        
+                       <div>
+                           <label for="">银行卡账号</label>
+                           <input type="text" name="" value="">
+                       </div>
+                       <div>
+                           <label for="">持卡人姓名</label>
+                           <input type="text" name="" value="">
+                       </div>
+                        <div>
+                           <label for="">开户行</label>
+                           <input type="text" name="" value="">
+                           <span>银行名称+省市具体开户网点名称</span>
+                       </div>
+                      
+                        <div>
+                           <label for="">常用手机号</label>
+                           <input type="text" name="" value="">
+                       </div>
+                    </form>
+                </div>
+            </div>
+            <!--用户须知  -->
+            <div class="UserInstructions"> 
+                 <div class="left">
+                     <p>用户须知</p>
+                     <ul>
+                         <li>
+                             <span class="circle"></span>
+                             <span>为保证正常的转账程序财务信息一旦填写将不可修改</span>
+                         </li>
+                            <li>
+                             <span class="circle"></span>
+                             <span>如果遇到特殊情况必须要修改账户信息请联系客服</span>
+                         </li>
+                            <li>
+                             <span class="circle"></span>
+                             <span>填写真实姓名，用于提现核对</span>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="right">
+                     <button type="button">保存</button>
+                 </div>
+            </div>
+         </div>
+               
+        </div>
+
+     
+</body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src='../../PlugIn/jquery.page.js'></script>
+
+     
+ </script>
+  <script src="../../js/index.js"></script>
+
+<script>
+    
+</script>
+<script type="text/javascript">
+   
+</script>    
+<!--日历插件  -->
+<script>
+  
+</script>
+</html>
+
+

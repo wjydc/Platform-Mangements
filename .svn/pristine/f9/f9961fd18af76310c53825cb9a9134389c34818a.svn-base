@@ -1,0 +1,799 @@
+/*小说列表  */
+body {
+  padding-bottom: 40px;
+  position: relative;
+}
+.noval {
+  width: 100%;
+}
+.noval .container {
+  padding: 0;
+  position: relative;
+}
+.noval #myTab li:first-child a {
+  border-left: 1px solid transparent;
+}
+.noval #myTab a {
+  font-size: 18px;
+  padding: 20px 30px;
+}
+.noval #myTab .active a {
+  color: #22a3f4 ;
+  border-top: 2px solid #22a3f4;
+}
+.noval .col-md-8 {
+  padding: 0 0 0 15px;
+}
+.noval .search {
+  padding: 20px 25px 0 30px;
+  overflow: hidden;
+}
+.noval .search .input-group {
+  float: left;
+  width: 290px;
+  margin-right: 20px;
+}
+.noval .search .input-group input {
+  width: 250px;
+  border-radius: 4px;
+}
+.noval .search .input-group span {
+  left: 10px;
+  border-radius: 4px;
+}
+.noval .search .input-group i {
+  color: #fff ;
+}
+.noval .search .novalTips {
+  color: #acb8bf;
+  float: left;
+  height: 34px;
+  line-height: 34px;
+}
+.noval .search .novalTips i {
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.noval .search .btn {
+  border-radius: 4px;
+  background-color: #22a3f4 ;
+  border: 1px solid #22a3f4;
+}
+.noval .tab-content table thead {
+  border: none;
+}
+.noval .tab-content table thead tr {
+  border: none;
+}
+.noval .tab-content table tbody tr:hover {
+  background-color: #f2f6fa;
+}
+.noval .tab-content table tbody tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.noval .tab-content table th {
+  vertical-align: middle;
+  padding: 20px 0;
+}
+.noval .tab-content table td {
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.noval .tab-content .pad {
+  padding-left: 20px;
+  position: relative;
+}
+.noval .tab-content .pad img {
+  width: 74px;
+  height: 92px;
+}
+.noval .tab-content .pad span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -10000;
+  display: inline-block;
+  width: 80%;
+  overflow: hidden;
+}
+.noval .tab-content .textcenter {
+  text-align: center;
+}
+.noval .tab-content .tdTitle {
+  font-size: 16px;
+  color: #2b3033;
+}
+.noval .tab-content p {
+  font-size: 14px;
+  color: #acb8bf;
+  line-height: 30px;
+}
+.novalList {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0 20px 20px;
+}
+.novalList .descript {
+  width: 205px;
+  min-height: 200px;
+  float: left;
+  position: relative;
+}
+.novalList .descript img {
+  width: 205px;
+  height: 255px;
+}
+.novalList .descript .title {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #2b3033;
+}
+.novalList .descript .brief {
+  font-size: 12px;
+  color: #acb8bf;
+  line-height: 25px;
+}
+.novalList .descript .gray {
+  color: #919699;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.novalList .charpterList {
+  overflow: hidden;
+  padding: 0 0 0 10px;
+}
+.novalList .charpterList ul li {
+  min-height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.novalList .charpterList ul li:hover {
+  background-color: #f2f6fa ;
+}
+.novalList .charpterList ul li:hover .title {
+  color: #22a3f4;
+}
+.novalList .charpterList ul li p {
+  float: left;
+  width: 83%;
+}
+.novalList .charpterList ul li p span {
+  display: inline-block;
+  float: left;
+}
+.novalList .charpterList ul li p .num {
+  margin: 0 10px;
+  min-width: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+.novalList .charpterList ul li p .orange {
+  min-width: 30px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #f6a407;
+  margin-right: 10px;
+  margin-top: 16px;
+  font-size: 10px;
+}
+.novalList .charpterList ul li p .red {
+  min-width: 30px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #fa570f;
+  margin-right: 10px;
+  margin-top: 16px;
+  font-size: 10px;
+}
+.novalList .charpterList ul li p .title {
+  max-width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 50px;
+  font-size: 16px;
+}
+.novalList .charpterList ul li a {
+  width: 115px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  color: #22a3f4;
+  font-size: 14px;
+  margin: 10px 0;
+  border: 1px solid #22a3f4;
+  border-radius: 4px;
+  text-align: center;
+}
+.novalList .tcdPageCode {
+  margin-top: 20px;
+}
+body {
+  overflow-y: auto;
+}
+.novalCopy {
+  width: 100%;
+  height: auto;
+}
+.novalCopy .container .novalCopyImg {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.novalCopy .container .novalCopyImg p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border-bottom: 1px solid #919699 ;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.novalCopy .container .novalContent {
+  width: 60%;
+  margin: 0 auto;
+}
+.novalCopy .container .novalContent .titlesIcon {
+  height: 80px;
+  text-align: center;
+  margin: 20px 0;
+}
+.novalCopy .container .novalContent .titlesIcon img {
+  height: 100%;
+}
+.novalCopy .container .novalContent .novalContentImg {
+  width: 100%;
+  height: 500px;
+}
+.novalCopy .container .footerNav {
+  width: 100%;
+  padding: 15px 100px ;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #919699;
+  background: #fff ;
+}
+.novalCopy .container .footerNav .dropup {
+  float: left;
+  margin-right: 30px;
+}
+.novalCopy .container .footerNav .dropup .btn {
+  border: none;
+  border-radius: none;
+  background-color: none;
+  background-image: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.novalCopy .container .footerNav .dropup .btn:hover {
+  color: #919699;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu {
+  max-width: 480px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: none;
+  -webkit-box-sizing: none;
+  border-radius: 0;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Copy a {
+  width: 98%;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 3px 10px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Cover a img {
+  width: 150px;
+  height: 90px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template {
+  margin-bottom: 5px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template a {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .Template a img {
+  width: 140px;
+  height: 60px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .guide {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .guide a {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .guide a img {
+  width: 120px;
+  height: 40px;
+}
+.novalCopy .container .footerNav .dropup .dropdown-menu .fuzhi a {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.novalCopy .container .footerNav .col-md-2 {
+  float: left;
+}
+.novalCopy .container .footerNav .col-md-2 button {
+  text-align: center;
+}
+.novalCopy .container .footerNav i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.modal-body .linkIcon {
+  text-align: center;
+}
+.modal-body .linkIcon img {
+  width: 100px;
+  height: 150px;
+}
+.modal-body .title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.modal-body form i {
+  color: #ff5c4d ;
+  font-size: 10px;
+  margin-right: 3px;
+}
+.modal-body form .row {
+  margin: 10px 0;
+  line-height: 45px;
+}
+.modal-body form .row input,
+.modal-body form .row select {
+  height: 45px;
+}
+.modal-body form .row a.col-md-4 {
+  color: blue;
+}
+.modal-body form .action {
+  background-color: #ff5c4d;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  outline: none;
+}
+.modal-body form .radio {
+  margin: 0;
+}
+.modal-body form input[type='radio'] {
+  margin: 0 0 0 -20px;
+  border-radius: 50%;
+}
+.modal-body {
+  overflow: hidden;
+}
+.modal-body .row {
+  margin: 0;
+  padding: 0;
+}
+.modal-body .container {
+  padding: 0;
+}
+.modal-body .Tipbtn {
+  width: 60%;
+  margin: 50px auto 0;
+  height: 100px;
+  overflow: hidden;
+}
+.modal-body .Tipbtn button {
+  width: 100px;
+  height: 30px;
+  float: left;
+}
+.modal-body .linkIcon {
+  width: 70px;
+  height: 90px;
+  float: left;
+  position: relative;
+}
+.modal-body .linkIcon img {
+  width: 70px;
+  height: 90px;
+}
+.modal-body .title {
+  float: left;
+}
+.modal-body .title .col-md-3 {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin: 20px 0 10px;
+}
+.modal-body .title .col-md-8 {
+  display: block;
+  font-size: 14px;
+  color: #919699;
+  padding-left: 20px;
+}
+.modal-body form {
+  float: left;
+}
+.modal-body form .col-md-3 {
+  padding: 0;
+}
+.modal-body form i {
+  color: #ff5c4d ;
+  font-size: 10px;
+  margin-right: 3px;
+}
+.modal-body form .row {
+  margin: 10px 0;
+  line-height: 45px;
+}
+.modal-body form .row input,
+.modal-body form .row select {
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid #e8e9eb;
+}
+.modal-body form .row a.col-md-4 {
+  color: #02a3f4;
+}
+.modal-body form .action {
+  background-color: #ff5c4d;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  outline: none;
+}
+.modal-body form .radio {
+  margin: 0;
+}
+.modal-body form input[type='radio'] {
+  margin: 0 0 0 -20px;
+  border-radius: 50%;
+}
+#charpterDetail .modal-body {
+  height: 350px;
+  overflow-y: auto;
+}
+#charpterDetail .modal-body p {
+  font-size: 14px;
+  text-indent: 32px;
+  line-height: 32px;
+}
+#charpterDetail .modal-footer {
+  text-align: right;
+}
+#charpterDetail .modal-footer button {
+  width: 140px;
+  height: 40px;
+}
+#charpterDetail .modal-footer .preCharpter {
+  background-color: #afafaf ;
+  border-color: #afafaf;
+}
+#charpterDetail .modal-footer .nexCharpter {
+  background-color: #22a3f4;
+}
+.template1 .temTitle {
+  font-size: 18px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+}
+.template1 .temTitle .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.template1 .tepContent {
+  text-align: justify;
+}
+.template1 .tepContent p {
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 32px;
+  text-indent: 32px;
+}
+.template2 {
+  margin: 30px 0;
+}
+.template2 .temTitle {
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #060606;
+  margin: 20px 0 30px 0;
+  background: url('../../img/templateImg/body11.jpg') no-repeat;
+  background-size: 200px 60px;
+  background-position-x: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+}
+.template2 .temTitle .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.template2 .tepContent {
+  border-top: 1px solid rgba(135, 85, 97, 0.568627);
+  border-bottom: 1px solid rgba(135, 85, 97, 0.568627);
+  text-align: justify;
+}
+.template2 .tepContent p {
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 32px;
+  text-indent: 32px;
+  color: rgba(135, 85, 97, 0.568627);
+}
+.template3 {
+  padding: 0 20px;
+  box-shadow: 0em 0em 0.8em #A5A5A5;
+  padding-bottom: 20px;
+  margin: 30px 0;
+}
+.template3 .temTitle {
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #fff ;
+  margin: 5px 0 15px 0;
+  background: url('../../img/templateImg/body22.jpg') no-repeat;
+  background-size: 350px 100%;
+  background-position-x: -5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+  position: relative;
+}
+.template3 .temTitle .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.template3 .temTitle span {
+  margin-right: 5px;
+}
+.template3 .tepContent {
+  text-align: justify;
+}
+.template3 .tepContent p {
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 32px;
+  text-indent: 32px;
+}
+.template4 {
+  padding: 0 0px 20px;
+  position: relative;
+  margin: 30px 0;
+}
+.template4 .temTitle {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff ;
+  margin: 5px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 50px;
+  position: relative;
+  background-color: #009f00;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.template4 .temTitle .num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #009f00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #009f00;
+  text-align: center;
+  line-height: 40px;
+}
+.template4 .temTitle span {
+  margin-right: 5px;
+}
+.template4 .tepContent {
+  text-align: justify;
+  padding: 0 30px;
+  border: 1px solid #009f00;
+  margin-left: 20px;
+  border-top: none;
+}
+.template4 .tepContent p {
+  font-size: 16px;
+  padding: 16px 0;
+  line-height: 32px;
+  text-indent: 32px;
+}
+.template5 {
+  margin: 30px 0;
+}
+.template5 .temTitle {
+  height: 70px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #060606;
+  background: url('../../img/templateImg/body77.jpg') no-repeat;
+  background-size: 250px 70px;
+  padding-left: 55px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  position: relative;
+}
+.template5 .temTitle .num {
+  width: 25px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #fff ;
+}
+.template5 .temTitle span {
+  margin-right: 5px;
+}
+.template5 .tepContent {
+  text-align: justify;
+  box-shadow: 0em 0em 0.8em #A5A5A5;
+  padding: 20px 30px;
+}
+.template5 .tepContent p {
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 32px;
+  text-indent: 32px;
+}
+.novalGuide {
+  width: 100%;
+  margin: 0 auto;
+}
+.initTemplate1 {
+  position: relative;
+  display: block;
+}
+.initTemplate1 p {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #7779ff;
+  border-radius: 4px;
+}
+.initTemplate1 span {
+  width: 0;
+  height: 0;
+  border-left: 9px solid #7779ff;
+  border-top: 18px solid #7779ff;
+  border-right: 9px solid transparent;
+  border-bottom: 18px solid transparent;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+.initTemplate2 {
+  position: relative;
+}
+.initTemplate2 p {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #bfd730;
+  border-radius: 4px;
+}
+.initTemplate2 p em {
+  color: #fff;
+}
+.initTemplate2 span {
+  width: 0;
+  height: 0;
+  border-left: 9px solid #bfd730;
+  border-top: 18px solid #bfd730;
+  border-right: 9px solid transparent;
+  border-bottom: 18px solid transparent;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+.initTemplate3 p {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff ;
+  background-color: #33B3EB ;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: #bebebe 0px 3px 5px;
+  padding-left: 20px;
+}
+.initTemplate3 p span {
+  float: left;
+  margin-left: 5px;
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  /* IE 9 */
+  -moz-transform: rotate(50deg);
+  /* Firefox */
+  -webkit-transform: rotate(50deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(50deg);
+}
+.initTemplate4 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.initTemplate4 p .lightblue {
+  color: #0080ff;
+}
+.initTemplate4 p .red {
+  color: #ff2941;
+}
+.initTemplate4 .lightred {
+  color: #ff4f79;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.initTemplate4 img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.initTemplate5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.initTemplate5 .black {
+  font-size: 18px;
+  font-weight: 700;
+}
+.initTemplate5 .red {
+  color: #ff2941;
+}
+.initTemplate6 .red {
+  color: #d92142;
+  font-size: 18px;
+  font-weight: 700;
+}
+.emptyContent {
+  width: 100%;
+  height: 100px;
+}

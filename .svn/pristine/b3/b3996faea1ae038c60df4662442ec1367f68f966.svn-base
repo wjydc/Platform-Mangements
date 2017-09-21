@@ -1,0 +1,170 @@
+
+@height:34px;
+.form-control{
+    min-height:@height;
+}
+.publicConfigure{
+    .container-fluid{
+        width:100%;
+        margin:0;
+        padding: 0;
+        .publicTitle{
+            height:50px;
+            line-height: 50px;
+            p{
+            border-top:2px solid #22a3f4;
+            border-right:1px solid #e8e9eb ;
+            color:#22a3f4;
+            font-size: 18px;
+            // width:125px;
+            text-align: center;
+         }
+        }
+        .publicInputs{
+            min-height:51px;
+            line-height: 51px;
+            border-bottom:1px solid #e8e9eb ;
+            
+          .col-sm-3,.col-sm-1{
+                padding:0 15px 0 0; 
+            }
+            .row{
+                margin: 0;
+                padding-right: 10px;
+            }
+            .button{
+                vertical-align: middle;
+                margin-top: 10px;
+                
+                
+            }
+            .submitss{
+                 background-color: #bfe7ff;
+                 text-align: center;
+                 color:#fff;
+                 cursor: pointer;
+            }
+            .col-sm-2{
+                border-left:1px solid #ddd ;
+                padding-left: 15px;
+                .addPublicNum{
+                    background-color: #22a3f4;
+                    color:#fff;
+                    text-align: center;
+                    font-size:14px;
+                    cursor: pointer;
+                    i{
+                        font-size: 12px;
+                        margin-right: 5px;
+                    }
+                }
+               
+            }
+
+        }
+       
+        
+    }
+
+
+
+}
+
+ .col-sm-2{
+    padding:0;
+}
+
+.promotelink{
+    min-height: 100%;
+}
+// 表格
+.publicConfigure .content{
+    .table{
+        margin-top: 10px;
+         th,td{
+                text-align: center;
+            }
+        tbody{
+           
+            tr{
+                &:hover{background-color: #f2f6fa ;}
+            }
+            tr{
+                border-bottom: 1px solid #ddd;
+                border-top:none;
+            }
+            td{
+                vertical-align: middle;
+                
+            }
+        }
+        td .AppID{
+            // white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word; 
+              /* Internet Explorer 5.5+ */
+        }
+        .pad{
+            padding-left: 15px;
+          
+        }
+       
+        // 操作
+        .operaTion{
+            .btn,.btn-default{
+                border-radius:4px;
+                margin-left: 5px;
+                border-color: #22a3f4;
+                color:#22a3f4;
+                margin:10px 5px;
+            }
+            .btn-group .btn{
+                 border-radius:4px;
+            }
+                .dropdown-menu{
+                    min-width:30px;
+                    border:none;
+                    background: url('../../img/action.png') no-repeat;
+                    background-size: 100%;
+                    a{
+                        color:#fff;
+                        line-height: 20px;
+                        &:hover{
+                            background-color: transparent;
+                        }
+                    }
+                }
+
+        }
+    }
+}
+
+
+
+
+// .gray{
+//   color:#bbbebf;
+//   font-size: 12px;
+// }
+
+
+
+
+
+// 模态框
+#PublicmyModal{
+    .warnIcon{
+        overflow: hidden;
+        .warning{
+            float: right;
+            color:#ff2020 ;
+            display: none;
+        }
+    }
+    
+}
+
+
+ 

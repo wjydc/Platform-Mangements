@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+      
+        <link rel="stylesheet" href="../../css/bill/bill.css" type="text/css">
+       
+    </head>
+    <body>
+        <div class="BILL userSate">
+            <!--表单  -->
+            <div class="container-fluid">
+                <div class="row">
+                   <p class="title">日账单</p>
+                </div>
+                <div class="earnList">
+                   <ul class="">
+                        <li>
+                            <p class="listTilte">今日新增</p>
+                            <p class="listMoney">20</p>
+                        </li>
+                        <li>
+                            <p class="listTilte">本月新增</p>
+                             <p class="listMoney">445</p>
+                        </li>
+                        <li>
+                            <p class="listTilte">用户总数</p>
+                             <p class="listMoney">3245</p>
+                        </li>
+                        <li>
+                            <p class="listTilte">充值用户</p>
+                            <p class="listMoney">125</p>
+                        </li>
+                   </ul>
+                </div>
+                
+                <div class="calendar">
+                    <div class="calendarS">
+                          <input  type="text"  value=""  onfocus="WdatePicker({'dateFmt':'yyyy-MM-dd HH:mm:ss'})">  
+                        <i class="glyphicon glyphicon-th"></i>
+                    </div>
+                    <span class="line">-</span>
+                    <div class="calendarS">
+                          <input  type="text"  value=""  onfocus="WdatePicker({'dateFmt':'yyyy-MM-dd HH:mm:ss'})">  
+                        <i class="glyphicon glyphicon-th"></i>
+                    </div>
+                    
+                    <!--搜索按钮组  -->
+                    <div class="searchinfo">
+                        <input  type="text" name="" value="" placeholder="请输入渠道名称...">
+                    </div>
+
+                    <div  class="searchinfo ">
+                        <input type="text" name="" value="" placeholder="请输入交易单号...">
+                    </div>
+
+                    <div  class="searchinfo selects">
+                        <select class="">
+                            <option>全部状态</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="search">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </div>
+                    
+                </div>
+            </div>
+               
+            <!--表格内容  -->
+            <!-- <div class="container-fluid"> -->
+                <div class="content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>时间</th>
+                                <th>交易单号</th>
+                                <th >渠道名称</th>
+                                <th >用户ID</th>
+                                <th>用户昵称</th>
+                                <th>充值金额</th>
+                                <th>状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td>2017-07-25 17:54:23</td>
+                                <td>20170620-00001111-00001233452</td>
+                                <td>掌优网站推广</td>
+                                <td>i140096224153276</td>
+                                <td>呆萌呆萌小白鹭</td>
+                                <td>20</td>
+                                <td>已支付</td>
+                            </tr>
+
+                             <tr>
+                                <td>2017-07-25 17:54:23</td>
+                                <td>20170620-00001111-00001233452</td>
+                                <td>----</td>
+                                <td>i140096224153276</td>
+                                <td>呆萌呆萌小白鹭</td>
+                                <td>20</td>
+                                <td>已支付</td>
+                            </tr>
+
+                            <tr>
+                                <td>2017-07-25 17:54:23</td>
+                                <td>20170620-00001111-00001233452</td>
+                                <td>掌优网站推广</td>
+                                <td>i140096224153276</td>
+                                <td>呆萌呆萌小白鹭</td>
+                                <td>20</td>
+                                <td>已支付</td>
+                            </tr>
+                           
+                         
+                        </tbody>
+                    </table>
+
+
+
+                </div> 
+            <!-- </div> -->
+           
+
+            <!--分页  -->
+            <div class="tcdPageCode"></div>
+        </div>
+        
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+<script src='../../PlugIn/jquery.page.js'></script>
+<script src="../../js/index.js"></script>
+  <!--日历 -->
+<script src='../../PlugIn/my97datepicker/wdatepicker.js'></script>
+<script src='../../PlugIn/my97datepicker/lang/zh-cn.js'></script>
+<script src='../../js/calendar.js'></script>
+<script>
+     $(".tcdPageCode").createPage({
+        pageCount:200,
+        current:1,
+        backFn:function(p){
+        }
+    });
+</script>
+  
+
+</html>
+
+

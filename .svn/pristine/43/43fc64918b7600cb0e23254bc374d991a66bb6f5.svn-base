@@ -1,0 +1,64 @@
+.wrap {
+  width: 100%;
+  height: auto;
+}
+.wrap .title {
+  font-size: 18px;
+  color: #919699;
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.wrap ul li {
+  border-bottom: 1px solid #f0f0f0;
+}
+.wrap ul li a {
+  display: block;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.wrap ul li a:hover {
+  color: #666;
+  background-color: #f2f6fa ;
+}
+.wrap ul li a span:first-child {
+  width: 78%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  float: left;
+}
+.wrap ul li a span:nth-child(2) {
+  width: 20%;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  color: #bbbebf;
+  float: right;
+  font-size: 12px;
+}
+#ModalTips .modal-body {
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#ModalTips .modal-body p {
+  line-height: 28px;
+}
+#ModalTips .modal-body .title {
+  margin: 15px 0 30px;
+}
+#ModalTips .modal-body div {
+  margin-bottom: 20px;
+}
+#ModalTips .modal-body div p {
+  line-height: 28px;
+}

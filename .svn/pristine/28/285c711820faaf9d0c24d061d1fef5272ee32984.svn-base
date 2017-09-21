@@ -1,0 +1,300 @@
+
+(function(){
+    // 首页
+var page={
+    index: function(){
+    //    导航对应的iframe切换
+    var srcs=['./firstPage/firstpage.html','./novalMessage/novalList.html','./promoteLink/promotelink.html','./Bill/dayBill.html',
+'./Bill/monthBill.html','./Bill/userState.html','./Bill/channelState.html','./publicConfigure/publicNumList.html','./publicConfigure/publicNumMenu.html',
+'','',
+'./CashRegister/cashRegister.html','./CashRegister/collectionInformation.html']
+        $('.MESSAGE').each(function(index,item){
+            var i=index;
+            $(this).click(function(){
+                var iframesrc=srcs[i];
+                $('iframe').attr('src',iframesrc);
+            })
+        })
+    },
+    // 线条
+    line: function(){
+         var height1=parseInt(($(window).height()))+parseInt(($(window).scrollTop()));
+     
+        $('.Division').css('height',height1)
+        $(window).resize(function(){
+           height1=parseInt(($(window).height()))+parseInt(($(window).scrollTop()));
+            $('.Division').css('height',height1)
+        })
+    }
+}
+page.index();
+page.line();
+
+// 小说列表/ 小说章节-生成文案
+var noval={
+    jump: function(){
+        $('.Extbtn').each(function(index,item){
+            $(this).click(function(){
+                var ip='http://localhost/';
+                var url=ip+'Platform%20Management/html/novalMessage/novalCopy.html';
+                $(this).attr('href', url)
+            })
+        })
+    },
+    // 复制链接
+    copyvalue: function(){
+
+        $('.Copy').each(function(index,item){
+
+            $(this).click(function(){
+                // alert(index)
+                value= $(this).parent().siblings('.pad').children('a').attr('href');
+                $(this).siblings('input').val(value)
+                console.log($(this).siblings().val())
+            })
+        })
+    //     var 
+    //     console.log(value);
+    //    $('.copyvalue').val(value)
+    }
+    // 
+}
+noval.jump()
+noval.copyvalue()
+
+
+
+
+// 推广链接
+var promotelink={
+    // 复制提示弹窗
+    out: function(){
+        var timer;
+        function hide(){
+            $('.copySE').hide()
+        }
+        function show(){
+            $('.copySE').show();
+        }
+        $('.address').each(function(){
+            $(this).click(function(){
+             show();
+             timer=setTimeout(hide,1500)
+            })
+        })
+    },
+    // 删除按钮
+    dele: function(){
+        $('.promoteDelet').each(function(index,item){
+            var i=index;
+            $(this).click(function(){
+                console.log(i)
+                var td=$(this).parent().parent().parent().parent();
+                td.parent().hide();
+            })
+        })
+    },
+}
+promotelink.out();
+promotelink.dele();
+
+
+
+
+// 数据统计
+var data={
+    // 倒计时
+    timedown: function(obj){
+        $('.calendar .search').click(function(){
+        var that=$('.timedown');
+        settime(that)
+    })
+    var countdown=60; 
+    var timer;
+    function settime(obj) { 
+        if (countdown==0) { 
+            obj.html(0); 
+            countdown = 60; 
+            return;
+        } else { 
+            var txt=countdown; 
+            obj.html(txt);
+            countdown--; 
+        } 
+     window.clearTimeout(timer)  
+    timer=window.setTimeout(function() { 
+        settime(obj) }
+        ,1500) 
+    }
+ },
+
+//  渠道成本
+cost: function(){
+    $('.cost input').focus(function(){
+        $(this).css({
+            'border':'1px solid #8bc5e9'
+        })
+    })
+},
+
+// 公众号列表-添加公众号.修改弹窗
+addPublicNum: function(){
+    // function myModals(){
+    //   var  _iframe = window.parent;
+    //   _iframe.modalOut1("publicConfigure/publicModal.html");
+    // }
+    // function modalOutDele(){
+    //   var  _iframedele = window.parent;
+    //   _iframedele.modalOutDele("publicConfigure/publicModalDele.html");
+    // }
+    //  function modalOutLeaving(){
+    //   var  _iframe = window.parent;
+    //   _iframe.modalOutLeave("publicConfigure/publicModalLeave.html");
+    // }
+    // function modalOutLink(){
+    //   var  _iframe = window.parent;
+    //   _iframe.modalOutLink("publicConfigure/publicModalLink.html");
+    // }
+    //  function modalOutAddList(){
+    //   var  _iframe = window.parent;
+    //   _iframe.modalOutAddList("publicConfigure/publicModalAddlist.html");
+    // }
+
+    // $('.addPublicNum').click(function(){
+    //    myModals();
+    // })
+    // $('.Publicchange').click(function(){
+    //    myModals();
+    // })
+    //  $('.delemenu').click(function(){
+    //     modalOutDele();
+    // })
+    // $('.publicLeave').click(function(){
+    //      modalOutLeaving()
+    // })
+    // $('.publicLink').click(function(){
+    //      modalOutLink()
+    // })
+    
+    //  $('.add').click(function(){
+    //      modalOutAddList()
+    // })
+//     function mo(callback){
+//          $('.Publicchange').click(function(){
+//          myModals();
+//        })
+//         callback()
+//     }
+//    mo(function B(){
+
+//           $(document).on("click",".publicSave",function(){
+//             email=$('#PublicmyModal input[type=email]').val()
+//           var ifa=$(window.frames["iframe8"].document).find("pubNUma").text();
+//          console.log('123')
+//          console.log(ifa)
+        
+//        })
+    
+            
+//      })
+    //  
+   
+    
+ },
+
+// 公众号列表弹窗AppSecret, Token 为空
+publicListNull: function(){
+     $(document).on("click",".publicSave",function(){
+       var AppSecret=$('#PublicmyModal .AppSecret').val();
+       var Token=$('#PublicmyModal .Token').val();
+        if(AppSecret==''){
+            $('#PublicmyModal .AppSecret').css({
+                'border':'1px solid #f76260'
+            })
+            $('#PublicmyModal .AppSecret').siblings().children('.warning').show()
+        }
+        if(Token==''){
+            $('#PublicmyModal .Token').css({
+                'border':'1px solid #f76260'
+            })
+            $('#PublicmyModal .Token').siblings().children('.warning').show()
+        }
+    })
+},
+
+
+
+
+
+
+
+
+}
+data.timedown();
+data.cost();
+data.addPublicNum();
+data.publicListNull();
+
+
+
+
+// 财务
+// 财务  收款信息
+var finance={
+    tab: function(){
+    $('.ways').each(function(index,item){
+        var i=index;
+        $(this).click(function(){
+            $('.ways').removeClass('active');
+             $(this).addClass('active');
+            $('.ways').children('label').removeClass('checked');        
+            $('.ways').eq(i).children('label').addClass('checked');
+            $('.payWays').removeClass('show');
+            $('.payWays').eq(i).addClass('show')
+        })
+    })
+  }
+}
+
+
+finance.tab()
+
+
+// 日历
+var clander={
+// 日历框默认值
+init: function(ele,Dateformat){
+        var date = new Date();
+        this.year = date.getFullYear();
+        this.month = date.getMonth() + 1;
+        this.date = date.getDate();
+        // this.day = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六")[date.getDay()];
+        this.hour = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
+        this.minute = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+        this.second = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+        var currentTime =this.year + "-" + this.month + "-" + this.date + "-" +  +this.hour + ":" + this.minute;
+       $('.calendarS input').val(currentTime);
+    //  设置选择时间
+        var ele= $('#calendar-2');
+        var Dateformat='yyyy-MM-dd - hh:ii'
+        ele.datetimepicker({
+            format:Dateformat,
+            startDate: currentTime,
+            language:'zh-CN' 
+    });
+
+  } 
+
+}
+
+clander.init();
+
+})()
+
+
+
+
+
+
+
+

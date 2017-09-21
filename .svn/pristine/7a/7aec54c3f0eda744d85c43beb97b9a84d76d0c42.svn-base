@@ -1,0 +1,123 @@
+<div class="modal-header ">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+    <h4 class="modal-title" id="myModalLabel">添加模板消息</h4>
+</div>
+<p  style="line-height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    border-bottom: 1px solid #f5f6f7;">公众号：麦子阅读 <img style="float:right;margin:10px 20px;" src="../../img/preview.png"></p>
+<div class="modal-body modal-body-w">
+
+<form>
+    <div class="form-group">
+    <div class="warnIcon">
+        <label for="exampleInputEmail1">模板消息</label>
+       </div>
+                                   <select class="form-control" style="width:50%;">
+                                        <option>请选择模板消息</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                              
+    </div>
+    <div class="form-group">
+    <div class="warnIcon">
+        <label for="exampleInputPassword1">素材名称</label>
+        </div>
+        <input type="text" class="form-control "  placeholder="请输入素材名称">
+        							
+    </div>
+
+    <div class="form-group">
+        <div class="warnIcon">
+             <label for="exampleInputPassword1">First</label>
+             <label class="warning" for="exampleInputPassword1">请输入First </label>
+        </div>
+       
+        <input  type="text" class="form-control First"  placeholder="请输入First">
+        							<select class="form-control">
+                                        <option>黑</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+    </div>
+
+    <div class="form-group">
+    <div class="warnIcon">
+        <label for="exampleInputPassword1">Keyword1</label>
+        </div>
+        <input  type="text" class="form-control "  placeholder="Keyword1">
+        							<select class="form-control">
+                                        <option>黑</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+    </div>
+
+    <div class="form-group">
+        <div  class="warnIcon">
+            <label for="exampleInputPassword1">Keyword2</label>
+            <label class="warning" for="exampleInputPassword1">Keyword2 </label>
+        </div>
+        
+        <input  type="text" class="form-control Token"  placeholder="Keyword2">
+        							<select class="form-control">
+                                        <option>黑</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+    </div>
+    <div class="form-group">
+        <div  class="warnIcon">
+            <label for="exampleInputPassword1">Value1</label>
+            <label class="warning" for="exampleInputPassword1">Value1</label>
+        </div>
+        
+        <input  type="text" class="form-control Token"  placeholder="Value1">
+                              		<select class="form-control">
+                                        <option>黑</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+    </div>
+    <div class="form-group">
+        <div  class="warnIcon">
+            <label for="exampleInputPassword1">Remark</label>
+            <label class="warning" for="exampleInputPassword1">Remark</label>
+        </div>
+        
+        <input  type="text" class="form-control Token"  placeholder="Remark">
+    </div>
+    <div class="form-group">
+        <div  class="warnIcon">
+            <label for="exampleInputPassword1">跳转链接</label>
+            <label class="warning" for="exampleInputPassword1">跳转链接</label>
+        </div>
+        
+        <textarea class="form-control" rows="6" placeholder="请输入链接" ></textarea>
+    </div>
+    <div class="form-group">
+        <div  class="warnIcon">
+            <b for="exampleInputPassword1" >模板内容</b><br>
+           <p>{{first.DATA}}<br> 服务类型：{{keyword1.DATA}}<br> 服务内容：{{keyword2.DATA}}<br>{{remark.DATA}}</p>
+        </div>
+        
+    </div>
+</form>   
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+    <button  type="button" class="btn btn-primary publicSave">保存</button>
+</div>
+ 

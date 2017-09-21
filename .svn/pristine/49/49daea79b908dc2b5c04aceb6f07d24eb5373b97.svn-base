@@ -1,0 +1,256 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>奇热联盟</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="../../css/login.css">
+    </head>
+<body class="whitebg">
+    <div class="wrap loginPage">
+        <div class="fixed-header">
+            <i class="line"></i>
+            <div class="header m-width">
+                <div class="logo fl-left">
+                    <img src="../../img/loginImg/logo.png" alt="">
+                </div>
+                <div class="nav fl-right clearfix" data-toggle="modal" data-target="#myModalLogin">
+                    <div class="fl-left user-btn">
+                        <button class="login" >登录</button>
+                       
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img"></div>
+        </div>
+        <div class="content">
+            <div class="our-advantage m-width">
+                <h3>我们的优势</h3>
+                <p>奇热联盟作为一个大型独特、全面的平台，未来立足泛娱乐业务，为用户提供高质量的服务。<br>
+                    在这里，实现及拥有更加完善的阅读及服务体系</p>
+                <ul class="our-icon">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../../img/loginImg/icon1.png" alt="">
+                            <p>活跃市场</p>
+                            <span>奇热用户千万用户每天在线阅读</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../../img/loginImg/icon2.png" alt="">
+                            <p>大流量</p>
+                            <span>每天独立IP访问用户数近百万</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../../img/loginImg/icon3.png" alt="">
+                            <p>专业性</p>
+                            <span>资深编辑及运作团队阅读用户的首选平台</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../../img/loginImg/icon4.png" alt="">
+                            <p>大数据</p>
+                            <span>新媒体粉丝变现新渠道快速结算、文案新颖</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="our-server">
+                <div class="m-width">
+                    <h3>我们的服务</h3>
+                    <div class="server-img">
+                        <img src="../../img/loginImg/server-img.png" alt="">
+                    </div>
+                    <div class="server-tit">
+                        <ul>
+                            <li>
+                                <img src="../../img/loginImg/icon5.png" alt="">
+                                <div>
+                                    <p>销售平台</p>
+                                    <span>充分了解您的用户，通过多种有效渠道直达意向用户，及时进行销售</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../../img/loginImg/icon6.png" alt="">
+                                <div>
+                                    <p>媒介合作</p>
+                                    <span>多途径、高效率、泛娱</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="our-partner m-width">
+                <h3>优质服务&nbsp;&nbsp;&nbsp;合作共赢</h3>
+                <ul class="clearfix">
+                    <li><img src="../../img/loginImg/logo_zy.png" alt=""></li>
+                    <li><img src="../../img/loginImg/hs_logo.png" alt=""></li>
+                    <li><img src="../../img/loginImg/qy_logo.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_zheng.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_ks.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_mt.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_ym.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_zk.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_lc.png" alt=""></li>
+                    <li><img src="../../img/loginImg/logo_xiaoshuokong.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright ©2017 平治文学 版权所有
+        </div>
+    
+    </div>
+    
+   <!-- 登录模态框 -->
+<div class="modal fade" id="myModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">管理登录</h4>
+              </div>
+              <div class="modal-body">
+                    <div class="memory">
+                        <input class="userName login" type="text" placeholder="用户名">
+                        <ul>
+                            <li>群殴群殴齐全哦群殴群殴·1哦非常渴望付款</li>
+                            <li>与老板地方怕寂寞V我公司可分为</li>
+                        </ul>
+                    </div>
+                    <div  class="memory">
+                        <input class="passWord login" type="password" placeholder="密码">
+                        <ul>
+                            <p>使用以下项的密码</p>
+                            <li  data-password='1234564568797'>群殴群殴齐全哦群殴群殴·1哦非常渴望付款</li>
+                            <li data-password='123456'>与老板地方怕寂寞V我公司可分为</li>
+                        </ul>
+                    </div>
+                   
+                    <div class="VerificationCode">
+                        <input class="refreshinput" type="text" placeholder="请输入验证码">
+                        <p class="vcodeImg">
+                            <img src="../../img/logo.png" alt="">
+                        </p>
+                        <p class="refresh">
+                            <img src="../../img/refresh.png" alt="">
+                        </p>
+                    </div>
+                    <button id='Login' type="button" class="btn btn-default">登录</button>
+              </div>
+            
+        </div>
+    </div>
+</div> 
+
+
+
+
+
+
+
+
+</body>
+
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script>
+   $('#Login').click(function(){
+    loginuser();
+   })
+
+   $('.login').each(function(index,item){
+       var that=$(this);
+       that.focus(function(){
+        that.siblings('ul').show();
+        userName()
+        passWord()
+     })
+   })
+//   用户名
+  function userName(){
+    $('.userName').siblings('ul').find('li').each(function(){
+            $(this).click(function(){
+                var text=$(this).text()
+                $(this).parent().siblings('input').val(text);
+                $(this).parent().hide()
+            })
+        })
+  }
+// 密码
+  function passWord(){
+    $('.passWord').siblings('ul').find('li').each(function(){
+            $(this).click(function(){
+                var text=$(this).attr('data-password');
+                $(this).parent().siblings('input').val(text);
+                $(this).parent().hide()
+            })
+        })
+  }
+
+    function loginuser(){
+        var loginusername = $('.userName').val();
+        var loginpassword = $('.passWord').val();
+        var  refreshinput = $('.refreshinput').val();
+        if(loginusername == '' ){
+            console.log('123')
+            tips(false,'请输入用户名')
+            return;
+        }
+        if(loginpassword == ''){
+            tips(false,'请输入密码')
+            return;
+        }
+        if(refreshinput == ''){
+            tips(false,'请输入验证码')
+            return;
+        }
+       
+    }
+
+   // 提示信息
+   function tips(isfail,message){
+    var faElement=$('body');
+       if(isfail){
+          var ele='';
+       }else{
+        var ele='<div class="tips"><i class="glyphicon glyphicon-exclamation-sign"></i>'+message+'</div>'; 
+       }
+       function hide(){
+        faElement.find('.tips').remove()
+      }
+
+    function show(){
+        faElement.append(ele)
+    }
+
+    function add(callback){
+        show();
+        callback();
+    }
+    add(function(){
+        timer=setTimeout(hide,1500);
+    })
+}
+
+
+ // $(document).on('click', '.reload-verify', function() {
+    //     console.log('ddd');
+    //     var verifyimg = $(this).attr("src");
+    //     if (verifyimg.indexOf('?') > 0) {
+    //         $(this).attr("src", verifyimg + '&random=' + Math.random());
+    //     } else {
+    //         $(this).attr("src", verifyimg.replace(/\?.*$/, '') + '?' + Math.random());
+    //     }
+    // });
+
+</script>
+</html>

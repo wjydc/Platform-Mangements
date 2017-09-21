@@ -1,0 +1,98 @@
+.siteSeting{
+    .container-fluid{
+        margin:0;
+        padding: 0;
+    }
+    
+.title{
+    margin-bottom: 40px;
+    p{
+        
+        font-size: 18px;
+        color:#919699; 
+        border-bottom:1px solid #e8e9eb ;
+        padding: 20px 0 20px 35px;
+    }
+ }
+    
+.tableContent{
+    .form-horizontal{
+        width:60%;
+        margin:0 auto;
+        font-size: 14px;
+        .form-group{
+            margin-bottom:20px;
+            .control-label{
+               color:#626262 ;
+            }
+            input{
+                color:#7d7d7d ;
+                border:1px solid #f0f0f0;
+            }
+            .col-sm-10{
+                label{
+                    color:#ff3737 ;
+                    display: none;
+                    font-size: 12px;
+                   i{
+                    margin-right: 5px;
+                   }
+                }
+            }
+        }
+        .wchatIcon{
+            .control-label{
+                vertical-align: middle;
+                padding-top: 20px;
+            }
+            .col-sm-5{
+                img{
+                    width:80px;
+                    height:80px;
+                }
+            }
+            .col-sm-3{
+                .btn{
+                    color:#22a3f4;
+                    border-color:#22a3f4; 
+                }
+                span{
+                    color:#bbbebf; 
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+.submitBtn{
+    border-top:1px solid #e8e9eb;
+    text-align:center;
+   
+    button{
+        width:140px;
+        height:40px;
+      display: inline-block;
+      margin:20px 15px;
+        
+    }
+    .reset{
+        color:#22a3f4;
+        border-color:#22a3f4;
+    }
+    .save{
+        background-color: #22a3f4;
+        color:#fff; 
+        &:hover{
+            border:none;
+        }
+    }
+}
+
+
+
+
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link  rel="stylesheet" type="text/css" href="../PlugIn/bootstrap3/css/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <!--导航  -->
+        <link rel="stylesheet" type="text/css" href="../PlugIn/Nav/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../PlugIn/Nav/css/style.css">
+    </head>
+    <body>
+        <div class="wrapIndex">
+            <!--头部  -->
+            <div class="container">
+                <div class="headers">
+                    <div class="logo">
+                        <div class="logoIcon">
+                            <img src="../img/logo.png" alt="">
+                        </div>
+                        <p>平治文学</p>
+                    </div>
+                    <!--登录  -->
+                    <div class="logoUser">
+                        <span><i class="glyphicon glyphicon-user"></i>盛夏光年</span>
+                        <a class="btns"><i class="glyphicon glyphicon-log-out"></i>退出</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--内容  -->
+            <div class="content">
+               <!--左侧导航  --><!--Sidebar content-->
+               <div class="navLeft">                
+                    <ul id="accordion" class="accordion">
+                            <li class="MESSAGE">
+                                <div class="link"><i class="fa fa-bell"></i>通知公告</div>
+                            </li>
+                            <li class="MESSAGE">
+                                <div class="link"><i class="fa fa-book"></i>小说列表</i></div>
+                            </li>
+                            <li class="MESSAGE">
+                                <div class="link"><i class="glyphicon glyphicon-bullhorn"></i>推广链接
+                            </li>
+                            <li>
+                                <div class="link"><i class="fa fa-database"></i> 数据统计<i class="glyphicon glyphicon-menu-down"></i></div>                           
+                                <ul class="submenu">
+                                    <li class="MESSAGE"><a href="#">日账单</a></li>
+                                    <li class="MESSAGE"><a href="#">月账单</a></li>
+                                    <li class="MESSAGE"><a href="#">用户统计</a></li>
+                                    <li class="MESSAGE"><a href="#">渠道统计</a></li>
+                                </ul>
+                            </li>                           
+                            <li>
+                                <div class="link"><i class="fa fa-comments"></i> 公众号配置<i class="glyphicon glyphicon-menu-down"></i></div>
+                                <ul class="submenu">
+                                    <li class="MESSAGE"><a href="#">公众号列表</a></li>
+                                    <li class="MESSAGE"><a href="#">公众号菜单</a></li>
+                                    <li class="MESSAGE"><a href="#">自动回复</a></li>
+                                    <li class="MESSAGE"><a href="#">模板消息</a></li>
+                                </ul>
+                            </li>                      
+                            <li><div class="link"><i class="fa fa-pie-chart"></i>财务管理<i class="glyphicon glyphicon-menu-down"></i></div>
+                                <ul class="submenu">
+                                    <li class="MESSAGE"><a href="#">财务信息</a></li>
+                                    <li class="MESSAGE"><a href="#">提现记录</a></li>
+
+                                    
+
+                                </ul>
+
+                            </li>
+
+                    </ul>
+
+               </div>
+
+               <!--分割线  -->
+               <div class="Division"></div>
+               <!--右侧信息  -->
+                <div class="changeMessage">
+                    <div class="Message">
+                        <!--多个iframe  -->
+                        <!--通知  -->
+                         <iframe   class="newiframe" id='mainFrame'  scrolling="no" src="./firstPage/firstpage.html"></iframe> 
+                          <!-- <iframe   class="newiframe" id='mainFrame'  scrolling="no" src="./CashRegister/collectionInformation.html"></iframe>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+<script src='../PlugIn/jquery.min.js'></script>
+<script src="../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../js/iframe.js'></script>
+ <script src="../js/index.js"></script>
+<script src='../PlugIn/Nav/js/index.js'></script>
+
+</html>
+
+

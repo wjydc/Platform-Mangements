@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" href="../../css/publicConfigure/publicmenu.css" type="text/css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="../../PlugIn/Sortable/st/app.css"> -->
+        
+    </head>
+    <body>
+       <div class="publicNumMenu">
+           <!--标题  -->
+           <div class="container menuTitle">
+               <div class="row">
+                   <div class="colmd">
+                       <p>公众号菜单</p>
+                   </div>
+                    <div class="col-md-2">
+                        <select class="form-control">
+                            <option>麦子阅读</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+               </div>
+           </div>
+            <!--内容  -->
+            <div class="container menuDetail">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="menuSetup">
+                            <div>
+                                <p class="setupHead">麦子阅读</p>
+                            </div>
+                            <div class="menuSetupDetail">
+                              
+                                <div class="menuFooter" >
+                                    <!-- <div class="showcase showcase-1">
+                                        <div id="elements-container">
+                                            <div class="draggable-element d-1 cura">
+                                                
+                                                <ul id="target" class="new-sub">
+                                                    <li  class="drag"><a href="#">麦子阅读</a></li>
+                                                    <li  class="drag add" > + </li>
+                                                </ul>
+                                                <p>继续阅读</p>
+                                            </div>
+                                            <div class="draggable-element d-2">
+                                                <p>精品推荐</p>
+                                            </div>
+                                            <div class="draggable-element d-3">
+                                                <ul id="target" class="new-sub">
+                                                    <li  class="drag"><a href="#">用户中心</a></li>
+                                                    <li class="drag"><a href="#">体验中心</a></li>
+                                                    <li  class="drag add" > + </li>
+                                                </ul>
+                                                <p>用户中心</p>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>                                   -->
+                                    <div class="menuWrap">
+                                        <ul class="menuWrapul">
+                                            <li id='AddBtn' class="firstLi">+添加菜单</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="devideLine">
+                       <!-- <div>
+                           
+                       </div> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="delemenu" >
+                                <!-- data-toggle="modal" data-target="#modalDele" -->
+                            <span><i class="glyphicon glyphicon-trash"></i>删除菜单</span>
+                        </div>
+                        <div class="menutitle">
+                            <p>菜单名称</p>
+                           <form>
+                                <div class="form-group">
+                                    <label for="menuName"></label>
+                                    <input type="email" class="form-control" id="menuName" placeholder="菜单名称">
+                                </div>
+                            </form>
+                            <span>不超过4个汉字或8个字母</span>
+                        </div>
+                        <div class="menucontent">
+                             <p>内容</p>
+                            <div class="checkbox-inline tabBtn">
+                                    <div class="AlipayWay ways active" href="#A" data-toggle="tab">
+                                        <label class="checked" data-id='1'  name='Alipay'   for="Alipay"></label>跳转链接
+                                    </div>
+                                    <div class="BankCardWay ways" href="#B" data-toggle="tab">
+                                        <label data-id='1'  name='BankCard'   for="BankCard"></label>发送消息
+                                    </div>
+                            </div>  
+                        </div>
+                        <div class="menuMessage tab-content"  id="myTabContent">
+                            <div class="Jumplink tab-pane fade in active" id='A'>
+                                <form class="form-inline">
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                                </div>
+                                <button type="button" class="btn btn-default publicLink" data-toggle="modal" data-target="#modalLink">提取链接</button>
+                                </form>
+                            </div>
+                            <div class="sendMessage tab-pane fade" id='B'> 
+                               <textarea class="form-control" rows="3" placeholder="请输入内容...（最多600字）"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--保存， 应用到公众号  -->
+            <div class="PreApplication">
+                <input class="btn btn-default publicLeave" data-toggle="modal" data-target="#modalLeave"  type="button" value="应用到公众号">
+                 <input class="btn btn-default save" type="button" value="保存">
+            </div>
+
+
+       </div>
+
+
+
+<!-- 模态框 -->
+<!-- 删除 -->
+<div class="modal fade" id='modalDele'  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">删除菜单</h4>
+            </div>
+            <div class="modal-body deletext">
+                <p>删除后，菜单下设置的内容也将被删除！</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default cancle" data-dismiss="modal">取消</button>
+                <button  type="button" class="btn btn-primary publicSave save">保存</button>
+            </div>
+      </div>
+    </div>
+  </div> 
+<!-- 提取链接 -->
+  <div class="modal fade" id='modalLink'  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">提取网页链接</h4>
+            </div>
+            <div class="modal-body publilinking">
+                <p>
+                    <span class="linkNmae">网站首页</span>
+                    <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+                </p>
+                    <p>
+                    <span class="linkNmae">网站首页</span>
+                    <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+                </p>
+            
+                <p>
+                    <span class="linkNmae">网站首页</span>
+                    <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+                </p>
+            
+                <p>
+                    <span class="linkNmae">网站首页</span>
+                    <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+                </p>
+            
+                <p>
+                    <span class="linkNmae">网站首页</span>
+                    <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+                </p>
+            </div>
+      </div>
+    </div>
+  </div>
+
+<!-- 添加 -->
+<div class="modal fade" id='modalAdd'  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">添加菜单</h4>
+            </div>
+            <div class="modal-body deletext">
+                <p>添加子菜单后，一级菜单的内容将被清除<br>确定添加子菜单？</p>
+                   
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default cancle" data-dismiss="modal">取消</button>
+                <button  type="button" class="btn btn-primary publicSave save">确定</button>
+            </div>          
+      </div>
+    </div>
+  </div>
+
+<!-- 离开-->
+<div class="modal fade" id='modalLeave'  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">友情提示</h4>
+            </div>
+            <div class="modal-body deletext">
+                <p><i class="glyphicon glyphicon-exclamation-sign"></i>尚未保存菜单，离开后将不保存您的修改！</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default cancle" data-dismiss="modal">取消</button>
+                <button  type="button" class="btn btn-primary publicSave save">离开</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src="../../js/index.js"></script>
+
+     <!--拖拽  -->
+<script src='../../PlugIn/HorizontalDrag/drag-arrange.js'></script>
+<!-- <script src='../../PlugIn/Verticaldrag/dargFlex.js'></script> -->
+
+<script>
+
+//  $(function() {
+//      $('.draggable-element').arrangeable();
+	 
+// });
+// $(".draggable-element ").click(function() {
+//     if ($(this).hasClass("cura")) {
+//         $(this).children(".new-sub").hide(); //当前菜单下的二级菜单隐藏
+//         $(".draggable-element ").removeClass("cura"); //同一级的菜单项
+//     } else {
+//         $(".draggable-element").removeClass("cura"); //移除所有的样式
+//         $(this).addClass("cura"); //给当前菜单添加特定样式
+//         $(".draggable-element ").children(".new-sub").slideUp("fast"); //隐藏所有的二级菜单
+//         $(this).children(".new-sub").slideDown("fast"); //展示当前的二级菜单
+//     }
+// });
+
+
+
+
+// var num = 1;
+$('#AddBtn').click(function(){
+    var num=$('.SubmenuWrap').length+1;
+    num++;
+    // console.log(num)
+    var  str = "<li class='SubmenuWrap'><span>一级菜单</span><ul class='menuSonWrap'><li class='menuSonAdd'>+</ul>";
+    if(num > 4){
+        return;
+    }else if(num == 4){
+        num = 3;
+        $(".firstLi").before(str);
+        $(".firstLi").hide();
+    }else{
+        $(".firstLi").before(str);
+    }
+    $(".SubmenuWrap,.firstLi").css({"width":100 / num +"%"});
+});
+
+$(document).on("click",".SubmenuWrap",function(){
+    $(".SubmenuWrap").children("ul").hide();
+    $(this).children("ul").show();
+});
+
+$(document).on("click",".menuSonAdd",function(){
+   
+    var sonmenuNum=$(this).parent('.menuSonWrap').find('.menuSonList').length;
+    if(sonmenuNum>4){
+        return
+    }else{
+        $(this).before("<li class='menuSonList'>子菜单</ li>");
+    }
+})
+
+
+$(document).on("click",".SubmenuWrap span",function(){
+    $(".SubmenuWrap span").removeClass('new');
+    $(this).addClass('new');
+    $(".menuSonList").removeClass('new');
+})
+ 
+$(document).on("click",".menuSonList",function(){
+    $(".menuSonList").removeClass('new');
+    $(this).addClass('new');
+    $(".SubmenuWrap span").removeClass('new');
+})
+
+
+
+$(document).on("click",".PreApplication .save",function(){
+ var menu=$('.new').text();
+  console.log(menu);
+})
+
+// 删除模态框
+$('.delemenu').click(function(){
+    $('#modalDele').modal('show')
+})
+
+// 点击模态框保存，删除对应的菜单
+$('#modalDele .save').click(function(){
+  
+    $('#modalDele').modal('hide'); //模态框影藏
+    var num1=$('.SubmenuWrap').length; // 父菜单个数
+    var activenum=$('.new').length;  //被选中的菜单数，不可为0；
+  
+//    此为父菜单span 对应的父li class
+    var menudele=$('.new').parent().attr('class');
+    if(menudele=='SubmenuWrap'){
+        // 父菜单
+        $('.new').parent('.SubmenuWrap').remove();
+        cssfamenu();
+    }else{
+        // 子菜单
+        $('.new').remove();
+        cssSonmenu();
+    }
+    function cssfamenu(){
+        if(activenum==0){
+         return
+        }else{
+                if(num1>=3){
+                    num1 = 3;
+                    $(".firstLi").show();
+                }
+                else {
+                    num1 = num1;
+                    $(".firstLi").show();
+                }
+                $(".SubmenuWrap,.firstLi").css({"width":100 / num1 +"%"});
+        }
+    }
+    function cssSonmenu(){
+        if(activenum==0){
+         return
+        }else{
+                if(num1>=3){
+                    num1 = 3;
+                    $(".firstLi").hide();
+                }
+                else {
+                    num1++;
+                    $(".firstLi").show();
+                }
+                $(".SubmenuWrap,.firstLi").css({"width":100 / num1 +"%"});
+        }
+    }
+   
+   
+})
+
+</script>
+
+</html>
+
+

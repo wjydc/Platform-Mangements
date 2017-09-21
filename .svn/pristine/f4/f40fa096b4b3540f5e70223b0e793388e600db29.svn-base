@@ -1,0 +1,500 @@
+/*小说列表  */
+@textcolor:#acb8bf;
+// 设置最小屏幕大小
+// @media screen and (max-width:700px){
+//   html,body{
+//     width:700px;
+//   }
+// }
+// @media screen and (min-width:560px){
+//   html,body{
+//     width:100%;
+//     height:100%;
+//   }
+// }
+
+.noval{
+    width:100%;
+    .container{
+        padding: 0;
+        position: relative;
+    }
+    #myTab{
+        li:first-child{
+            a{
+                border-left:1px solid transparent;
+            }
+        }
+        a{
+            font-size: 18px;
+            padding: 15px 30px;
+        }
+
+       .active{
+           a{
+           color:#22a3f4 ;
+           border-top:2px solid #22a3f4;
+           }
+       }
+    }
+    .col-md-8{
+        padding:0 0 0 15px;
+    }
+    .col-md-4{
+         padding: 20px 25px 0 30px;
+         overflow: hidden;
+    }
+    .search{
+      
+      
+        i{
+            color:#fff ;
+        }
+        .btn{
+            border-radius:none;
+            background-color:#bfe7ff;
+            
+        }
+    }
+
+
+    .tab-content{
+        table{
+            thead{
+                border:none;
+                tr{
+                     border:none;
+                }
+            }
+            tbody tr{
+                &:hover{
+                    background-color: #f2f6fa;
+                }
+            }
+            tbody tr:last-child{
+                border-bottom: 1px solid #ddd;
+            }
+            th{
+                vertical-align: middle;
+                padding: 20px 0;
+            }
+           td{
+                vertical-align: middle;
+                padding: 10px 0;
+            }
+        }
+        
+       .pad{
+           padding-left: 20px;
+            position: relative;
+    
+           img{
+               width:74px;
+               height: 92px;
+           }
+            span{
+                position: absolute;
+                top:0;
+                left:0;
+                opacity: 0;
+            }
+       }
+        .textcenter{
+          text-align:center;
+        }
+        .tdTitle{
+           font-size:16px;
+           color:#2b3033;
+        }
+        p{
+            font-size: 14px;
+            color: @textcolor;
+            line-height: 30px;
+        }
+    }
+   
+}
+
+
+// 小说章节
+.novalList{
+    @titlecolor:#22a3f4;
+    width:100%;
+    overflow: hidden;
+    padding: 20px 0 20px 20px;
+    .descript{
+        width:205px; 
+        min-height: 200px;
+        float: left;
+        position: relative;
+        img{
+            width:205px;
+            height:255px;
+        }
+        .title{
+            margin:10px 0;
+            font-size: 18px;
+            color:#2b3033;
+        }
+        .brief{
+            font-size: 12px;
+            color: @textcolor;
+            line-height: 25px;
+           
+        }
+        .gray{
+            color:#919699;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+    }
+    .charpterList{
+        overflow: hidden;
+        padding: 0 0 0 10px;
+         ul{
+      
+       li{
+           min-height: 50px;
+           border-bottom:1px solid lightgray;
+           overflow: hidden;
+           &:hover{
+               background-color: #f2f6fa ;
+               .title{
+                   color: @titlecolor
+               }
+           }
+           p{
+             float: left;
+             width:83%;
+              span{
+                    display: inline-block;
+                    float:left;
+                }
+             .num{
+                 margin:0 10px;
+                 min-width: 20px;
+                 line-height: 50px;
+                 text-align: center;
+             }
+            .orange{
+              min-width: 30px;
+              text-align: center;
+                border-radius:2px;
+                border:1px solid #f6a407;
+                margin-right: 10px;
+                margin-top: 16px;
+                font-size: 10px;
+            }
+             .title{
+                
+                 max-width: 70%;
+                 overflow: hidden;
+                 text-overflow: ellipsis;
+                 white-space: nowrap;
+                  line-height: 50px;
+                  font-size: 16px;
+             }
+           }
+            a{
+               width:115px;
+               height:30px;
+               line-height: 30px;
+                float: left;
+                color: @titlecolor;
+                font-size: 14px;
+                margin: 10px 0;
+                border:1px solid @titlecolor ;
+                border-radius: 4px;
+                text-align: center;
+            }
+         }
+      }
+    }
+    .tcdPageCode{
+    margin-top: 20px;
+}
+  
+}
+
+body{
+    overflow-y: auto;
+}
+
+// 生成文案
+.novalCopy{
+    width:100%;
+    height:auto;
+    .container{
+        // min-height:200px;
+        // background-color:lightgray;
+        .novalCopyImg{
+            width:60%;
+            min-height: 200px;
+            // background-color: pink;
+            margin:0 auto;
+            padding-top: 10px;
+            p{
+                font-size:18px;
+                font-weight:600;
+                line-height: 50px;
+                border-bottom:1px solid lightgray;
+                margin-bottom: 30px;
+            }
+            img{
+                width:100%;
+                height:500px;
+            }
+        }
+        .novalContent{
+             width:60%;
+             margin:0 auto 100px;
+             .titlesIcon{
+                 height:80px;
+                 text-align: center;
+                 margin:20px 0;
+                 img{
+                    height:100%;
+                 }
+             }
+             p{
+                 font-size: 16px;
+                 line-height: 30px;
+             }
+
+
+
+        }
+
+
+        .footerNav{
+            width:100%;
+           padding: 15px 100px ;
+            position: fixed;
+            z-index: 1000;
+            bottom: 0;
+            left:0;
+            border-top:1px solid lightgray;
+            background: #fff ;
+
+            // overflow: hidden;
+            .dropup{
+                float: left;
+                margin-right:30px;
+               
+                .btn{
+                    border:none;
+                    border-radius: none;
+                    background-color: none;
+                    background-image: none;
+                    background-color: transparent;
+                    outline: none;
+                    box-shadow: none;
+                    &:hover{
+                        border:1px solid #e8e9eb;
+                    }
+                }
+                .dropdown-menu{
+                    max-width:480px;
+                    max-height:400px;
+                    overflow-y: auto;
+                    box-shadow: none;
+                    -webkit-box-sizing: none;
+                    border-radius: 0;
+                    .Copy{
+                        a{
+                            width:98%;
+                            height:40px;
+                            line-height: 40px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            padding:3px 10px;
+                        }
+                       
+
+                    }
+                    
+                    .Cover{
+                        a{
+                            img{
+                                width:150px;
+                                height:90px;
+                            }
+                        }
+                    }
+
+                    .Template{
+                        margin-bottom:5px;
+                        a{
+                            height:60px;
+                            line-height: 60px;
+                            text-align: center;
+                            img{
+                                width:140px;
+                                height:60px;
+                            }
+                        }
+                    }
+                    .guide{
+                        a{
+                            height:40px;
+                            line-height: 40px;
+                            text-align: center;
+                        }
+                    }
+                    .fuzhi{
+                       
+                        a{
+                          
+                            height:40px;
+                            line-height: 40px;
+                            text-align: center;
+                        }
+                    }
+
+
+                }
+                
+            }
+            .col-md-2{
+                button{
+                   
+                    text-align: center;
+                }
+            }
+            i{
+                    font-size: 12px;
+                    margin-right: 10px;
+                }
+        }
+    }
+}
+
+
+// 模态框
+.modal-body{
+    .linkIcon{
+        text-align: center;
+        img{
+            width:100px;
+            height:150px;
+        }
+    }
+    .title{
+        font-weight: 600;
+       margin:10px 0;
+    }
+    form{
+        i{
+            color:#ff5c4d ;
+            font-size: 10px;
+            margin-right:3px;
+        }
+        .row{
+            margin:10px 0;
+            line-height: 45px;
+            input,select{
+                height:45px;
+            }
+            a.col-md-3{color:blue;}
+        }
+        .action{
+            background-color: #ff5c4d;
+            width:200px;
+            height:50px;
+            margin:auto;
+            border: none;
+            color:#fff;
+            font-size: 16px;
+            display: block;
+            outline: none;
+        }
+        .radio{
+            margin: 0;
+        }
+        input[type='radio']{
+            margin:0 0 0 -20px;
+            border-radius: 50%;
+        }
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+// 模态框
+.modal-content{
+  margin-top: 80px;
+}
+
+// 推广链接模态框
+#myModalPro{
+  .modal-body{
+    .linkIcon{
+        text-align: center;
+        img{
+            width:100px;
+            height:150px;
+        }
+    }
+    .title{
+        font-weight: 600;
+       margin:10px 0;
+    }
+    form{
+        i{
+            color:#ff5c4d ;
+            font-size: 10px;
+            margin-right:3px;
+        }
+        .row{
+            margin:10px 0;
+            line-height: 45px;
+            input,select{
+                height:45px;
+            }
+            a.col-md-3{color:blue;}
+        }
+        .promoLinkaction{
+            background-color: #ff5c4d;
+            width:200px;
+            height:50px;
+            margin:auto;
+            border: none;
+            color:#fff;
+            font-size: 16px;
+            display: block;
+            outline: none;
+        }
+        .radio{
+            margin: 0;
+        }
+        input[type='radio']{
+            margin:0 0 0 -20px;
+            border-radius: 50%;
+        }
+    }
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

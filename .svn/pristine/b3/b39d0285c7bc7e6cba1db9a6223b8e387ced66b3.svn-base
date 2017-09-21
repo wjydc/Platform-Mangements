@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>模板6</title>
+    <style>
+        .template6{
+            padding:0 20px 20px;
+            position: relative;
+            margin-bottom:20px;
+           
+        }
+        .template6 .temTitle{
+            height:50px;
+            line-height: 50px;
+            font-size: 18px;
+            color:#fff ;
+            margin:5px 0 0 0;
+            background-color: #009f00 ;
+          font-weight: 600;
+          border-top-left-radius:25px;
+          border-bottom-left-radius:25px;
+          padding-left: 60px;
+          border-right:1ps solid #009f00;
+        }
+        .template6 .temTitle span{
+            margin-right: 5px;
+        }
+        .num{
+            width:50px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            color:#009f00 ;
+            font-size: 18px;
+            background-color: #fff ;
+            border-radius: 50%;
+            position: absolute;
+            top:0;
+            left:20px;
+            border:1px solid #009f00; 
+        }
+        .tepContent{
+            text-align: justify;
+            padding: 0 30px;
+            border:1px solid #009f00;
+            margin-left: 25px;
+        }
+        .tepContent p{
+            font-size: 16px;
+            margin:16px 0;
+            line-height: 32px;
+            text-indent: 32px;
+           
+        }
+
+    </style>
+</head>
+<body>
+        <div class="template6">
+            <p class="temTitle"><span>第一章</span> 放在蒋凤仪破解过改</p>
+            <div class="num">1</div>
+            <div class="tepContent">
+                <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+                <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+        迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+        就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+            <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+            <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+        迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+        就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+            <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+            <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+        迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+        就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+        </div>
+        
+            
+      </div>
+</body>
+</html>

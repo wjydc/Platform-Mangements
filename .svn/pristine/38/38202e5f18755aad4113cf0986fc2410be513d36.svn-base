@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通知消息</title>
+    <link href="../../PlugIn/bootstrap3/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/firstpage/firstpage.css">
+</head>
+<body>
+    <div class="wrap">
+         <p class="title">通知公告</p>
+        <ul>
+            <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推本周畅销，这些小说一定要推</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+             <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+            
+             <li>
+                <a href="#">
+                    <span>本周畅销，这些小说一定要推！</span>
+                    <span>2017-07-25 12:23:09</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="#">
+                    <span>haole1</span>
+                    <span>xiexie123</span>
+                </a>
+            </li>
+          
+        </ul> 
+
+        <!--分页  -->
+        <div class="tcdPageCode"></div>
+
+
+
+    </div>
+</body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../PlugIn/jquery.page.js'></script>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:200,
+        current:1,
+        backFn:function(p){
+        }
+    });
+</script>
+</html>

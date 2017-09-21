@@ -1,0 +1,224 @@
+.promotelink{
+    .container-fluid{
+        width:100%;
+        margin:0;
+        padding: 0;
+        .promoteTitle{
+            height:50px;
+            line-height: 50px;
+            p{
+            border-top:2px solid #22a3f4;
+            border-right:1px solid #e8e9eb ;
+            color:#22a3f4;
+            font-size: 18px;
+            // width:125px;
+            text-align: center;
+         }
+        }
+        .promoteInputs{
+            min-height:51px;
+            line-height: 51px;
+            border-bottom:1px solid #e8e9eb ;
+          .col-sm-3,.col-sm-2,.col-sm-1{
+                padding:0 15px 0 0; 
+            }
+            .row{
+                margin: 0;
+                padding-right: 10px;
+            }
+            .button{
+                vertical-align: middle;
+                margin-top: 10px;
+                
+                
+            }
+            .submitss{
+                 background-color: #bfe7ff;
+                 text-align: center;
+                 color:#fff;
+                 cursor: pointer;
+            }
+
+        }
+       
+        
+    }
+
+
+
+}
+
+ .col-sm-2{
+    padding:0;
+}
+
+.promotelink{
+    min-height: 100%;
+}
+// 表格
+.promotelink .content{
+    .table{
+        margin-top: 10px;
+        tbody{
+            tr{
+                &:hover{background-color: #f2f6fa ;}
+            }
+            tr{
+                border-bottom: 1px solid #ddd;
+                border-top:none;
+            }
+            td{
+                vertical-align: middle;
+            }
+        }
+        td .address{
+            // white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word; 
+            cursor: pointer;
+            i{margin-left:2px;}      /* Internet Explorer 5.5+ */
+        }
+        .pad{
+            padding-left: 15px;
+          
+        }
+        .entranceCharpter{
+            a{
+                display: block;
+                overflow: hidden;
+                img{
+                    width:72px;
+                    height:90px;
+                    float: left;
+                    position: relative;
+                    margin-right: 10px;
+                }
+                div{
+                    overflow: hidden;
+                    // margin-top: 10px;
+                    .tdTitle{
+                        font-size: 16px;
+                        color:#22a3f4;
+                    }
+                    .gray{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        // 操作
+        .operation{
+            .btn,.btn-default{
+                border-radius:4px;
+                margin-left: 10px;
+                border-color: #22a3f4;
+                color:#22a3f4;
+            }
+            .btn-group .btn{
+                 border-radius:4px;
+            }
+                .dropdown-menu{
+                    min-width:30px;
+                    border:none;
+                    background: url('../../img/action.png') no-repeat;
+                    background-size: 100%;
+                    a{
+                        color:#fff;
+                        line-height: 20px;
+                        &:hover{
+                            background-color: transparent;
+                        }
+                    }
+                }
+
+        }
+    }
+}
+
+
+
+
+.gray{
+  color:#919699 ;
+  font-size: 12px;
+}
+
+
+
+
+
+// 模态框
+
+.modal-body{
+    // 删除提示
+    .Tipbtn{
+        width:60%;
+        margin:50px auto 0;
+        height:100px;
+        overflow: hidden;
+        button{
+            width:100px;
+            height:30px;
+           
+            float: left;
+            // margin:35px 20px;
+           
+            // border:1px solid #f0f0f0;
+        }
+    }
+    .linkIcon{
+        text-align: center;
+        img{
+            width:100px;
+            height:150px;
+        }
+    }
+    .title{
+        font-weight: 600;
+       margin:10px 0;
+    }
+    form{
+        i{
+            color:#ff5c4d ;
+            font-size: 10px;
+            margin-right:3px;
+        }
+        .row{
+            margin:10px 0;
+            line-height: 45px;
+            input,select{
+                height:45px;
+            }
+            a.col-md-4{color:blue;}
+        }
+        .action{
+            background-color: #ff5c4d;
+            width:200px;
+            height:50px;
+            margin:auto;
+            border: none;
+            color:#fff;
+            font-size: 16px;
+            display: block;
+            outline: none;
+        }
+        .radio{
+            margin: 0;
+        }
+        input[type='radio']{
+            margin:0 0 0 -20px;
+            border-radius: 50%;
+        }
+    }
+
+
+
+
+
+
+}
+
+
+

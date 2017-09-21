@@ -1,0 +1,81 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+    <h4 class="modal-title" id="myModalLabel">发送消息</h4>
+</div>
+<h5><img src="../../img/icon_sun.png">麦子阅读公众号</h5>
+<div class="m-text">
+  <span>标题</span>
+  <p>
+    热书推荐{id:39}
+  </p>
+</div>
+
+<div class="m-text ">
+  <span>模板内容 </span>
+  <p>
+    尊敬的读者您好！<br> 服务类型：好书推荐<br> 服务内容：一觉睡醒发现美女睡在我隔壁， 我还拥有了特异功能！<br> {{remark.DATA}}
+  </p>
+</div>
+<div class="m-text">
+  <span>跳转链接</span>
+  <p>
+    https://run.mockplus.cn/index.html
+  </p>
+</div>
+<div class="m-text">
+  <span>发送时间</span>
+  <div class="calendarS">
+      <input type="text" value="请选择时间" id="demo-1">  
+      <i class="glyphicon glyphicon-th"></i>
+  </div>
+</div>
+<div class="m-text">
+  <span>发送人数</span>
+  <label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+  所有用户
+  </label>
+<label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+ 自定义人数
+</label>
+</div>
+<input type="number" class="m-text-msg"  placeholder="最多发送312102人" > 
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+    <button  type="button" class="btn btn-primary publicSave">保存</button>
+</div>
+
+<script src='../PlugIn/Datepicker/js/foundation-datepicker.min.js'> </script>
+
+<!--日历插件  -->
+<script>
+    $('#demo-1,#demo-2').fdatepicker({
+	    format: 'yyyy-mm-dd',
+		pickTime: false
+    });
+    var nowTemp = new Date();
+		var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+		var checkin = $('#dpd1').fdatepicker({
+			onRender: function (date) {
+				return date.valueOf() < now.valueOf() ? 'disabled' : '';
+			}
+		}).on('changeDate', function (ev) {
+			if (ev.date.valueOf() > checkout.date.valueOf()) {
+				var newDate = new Date(ev.date)
+				newDate.setDate(newDate.getDate() + 1);
+				checkout.update(newDate);
+			}
+			checkin.hide();
+			$('#dpd2')[0].focus();
+		}).data('datepicker');
+		var checkout = $('#dpd2').fdatepicker({
+			onRender: function (date) {
+				return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+			}
+		}).on('changeDate', function (ev) {
+			checkout.hide();
+		}).data('datepicker');
+</script>
+

@@ -1,0 +1,468 @@
+.CashRegister {
+  width: 100%;
+}
+.CashRegister .title {
+  color: #919699;
+  font-size: 18px;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px solid #e8e9eb;
+}
+.CashRegister .CashList {
+  width: 100%;
+  margin-top: 20px;
+}
+.CashRegister .CashList .CashListul {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+.CashRegister .CashList .CashListul .CashListulli {
+  width: 210px;
+  min-height: 80px;
+  border-radius: 4px;
+  padding: 20px 0 0;
+  border: 1px solid #e8e9eb;
+  margin-bottom: 10px;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+.CashRegister .CashList .CashListul .CashListulli p {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.CashRegister .CashList .CashListul .CashListulli .listTilte {
+  font-size: 16px;
+}
+.CashRegister .CashList .CashListul .CashListulli .listMoney {
+  color: #ed8e0e ;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.CashRegister .CashList .CashListul .CashListulli .listMoney .moneyIcon {
+  font-size: 16px;
+}
+.CashRegister .CashList .CashListul .CashListulli .listAccount {
+  font-size: 14px;
+  color: #919699;
+}
+.CashRegister .CashList .CashListul .CashNote {
+  width: 240px;
+  min-height: 80px;
+  float: left;
+}
+.CashRegister .CashList .CashListul .CashNote .listTilte {
+  margin: 0 0 10px 0;
+}
+.CashRegister .CashList .CashListul .CashNote p {
+  color: #bbbebf;
+  font-size: 12px;
+}
+.CashRegister .CashList .CashListul .CashNote ul {
+  margin: 0;
+}
+.CashRegister .CashList .CashListul .CashNote ul li {
+  color: #bbbebf;
+  font-size: 12px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.CashRegister .CashList .CashListul .CashNote ul li .circle {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: #22a3f4;
+  margin-top: 8.5px;
+  margin-right: 5px;
+  position: relative;
+  float: left;
+}
+.CashRegister .CashList .CashListul .CashNote ul li span:last-child {
+  font-size: 12px;
+}
+.CashRegister .ApplyCash {
+  width: 180px;
+  height: 40px;
+  background-color: #22a3f4;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 0 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.CashRegister .ApplyCash i {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 5px;
+}
+.CashRegister .calendar {
+  width: 100%;
+  overflow: hidden;
+}
+.CashRegister .calendar .calendarS {
+  float: left;
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #e8e9eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.CashRegister .calendar .calendarS input {
+  border: none;
+  width: 175px;
+  height: 28px;
+  float: left;
+  margin: 0;
+  box-shadow: none;
+  text-align: center;
+  outline: none;
+}
+.CashRegister .calendar .calendarS i {
+  float: left;
+  margin-top: 5px;
+  color: #e8e9eb;
+}
+.CashRegister .calendar .line {
+  float: left;
+  margin: 0 5px;
+}
+.CashRegister .calendar .search {
+  float: left;
+  border-radius: 4px;
+  margin: 0 10px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #22a3f4;
+  cursor: pointer;
+}
+.CashRegister .calendar .search i {
+  color: #fff ;
+}
+.CashRegister .calendar .time {
+  float: left;
+  min-width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.CashRegister .calendar .searchinfo {
+  float: left;
+  width: 160px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e8e9eb;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.CashRegister .calendar .searchinfo input {
+  border: none;
+  width: 100%;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: none;
+}
+.CashRegister .calendar .selects {
+  width: 120px;
+  height: 30px;
+}
+.CashRegister .calendar .selects select {
+  width: 100%;
+  height: 28px;
+  border: none;
+  padding: 0 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.table {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  vertical-align: middle;
+}
+.table thead {
+  background-color: #fff;
+  border-top: none;
+}
+.table th,
+.table td,
+.table tr {
+  text-align: center;
+  vertical-align: middle;
+}
+.table .btn-default {
+  width: 70px;
+  height: 30px;
+  color: #22a3f4;
+  border: 1px solid #22a3f4;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.table tbody tr:hover {
+  background-color: #f2f6fa;
+}
+.table tbody tr td {
+  vertical-align: middle;
+}
+.Public .modal-header {
+  height: 50px;
+  padding: 0;
+  line-height: 50px;
+  color: #fff;
+}
+.Public .modal-header .close {
+  margin: 0;
+  float: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 6px;
+  text-shadow: none;
+  color: #fff;
+  opacity: 1;
+}
+.Public .modal-header .close span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #33b0ff;
+  border-top-right-radius: 6px;
+}
+.Public .modal-header .modal-title {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #22a3f4;
+  padding: 0 0 0 20px;
+  line-height: 50px;
+  border-top-left-radius: 6px;
+  color: #fff;
+}
+.Public .modal-body {
+  width: 80%;
+  padding: 30px 35px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.Public .modal-body .SetMess {
+  text-align: center;
+}
+.Public .modal-body .CashWithdrawal {
+  color: #9a9ea1 ;
+  font-size: 16px;
+}
+.Public .modal-body .CashWithdrawal input {
+  border-radius: 4px;
+  width: 80%;
+  height: 30px;
+  margin: 5px 0 10px;
+  border: 1px solid #d8e0e5;
+  padding-left: 12px;
+  font-size: 14px;
+}
+.Public .modal-body .CashTo p:first-child {
+  font-size: 16px;
+}
+.Public .modal-body .CashTo p {
+  margin: 15px 0;
+  color: #9a9ea1 ;
+  font-size: 14px;
+}
+.Public .modal-body .CashTo p:last-child {
+  color: #bbbebf;
+  font-size: 12px;
+}
+.Public .modal-body .CashTo .CashWay {
+  color: #4bbf12;
+  overflow: hidden;
+}
+.Public .modal-body .CashTo .CashWay span:first-child {
+  float: left;
+}
+.Public .modal-body .CashTo .CashWay span:last-child {
+  float: left;
+  margin-left: 10px;
+}
+.Public .modal-body .CashTo i {
+  color: #4bbf12;
+}
+.Public .modal-body .CashMessage {
+  overflow: hidden;
+  font-size: 14px;
+  width: 70%;
+  margin: 20px auto;
+}
+.Public .modal-body .CashMessage .CashMessageTitle {
+  min-width: 80px;
+  text-align: right;
+  color: #a2a6a9;
+  margin-right: 45px;
+}
+.Public .modal-body .CashMessage .left {
+  float: left;
+}
+.Public .know {
+  display: block;
+  width: 140px;
+  height: 35px;
+  background-color: #33b0ff ;
+  border-color: #33b0ff;
+  color: #fff ;
+  margin: 0 auto 30px;
+}
+.Public .deletext {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 16px;
+}
+.Public .deletext i {
+  color: #f76260;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.Public .modal-footer {
+  text-align: center;
+  border: none;
+}
+.Public .modal-footer .btn {
+  width: 140px;
+  height: 35px;
+}
+.Public .modal-footer .btn-default {
+  color: #33b0ff ;
+}
+.Public .modal-footer .btn-primary {
+  background-color: #33b0ff ;
+  border-color: #33b0ff;
+  color: #fff;
+}
+.CollectionInfo .container-fluid {
+  padding: 0;
+}
+.CollectionInfo .container-fluid .title {
+  border-bottom: 1px solid #e8e9eb;
+}
+.CollectionInfo .container-fluid .chooseWays {
+  width: 70%;
+  min-height: 320px;
+  border: 1px solid #e8e9eb;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+.CollectionInfo .container-fluid .chooseWays .tabBtn {
+  overflow: hidden;
+  padding-left: 20px;
+  height: 50px;
+  border-bottom: 1px solid #e8e9eb;
+}
+.CollectionInfo .container-fluid .chooseWays .tabBtn .ways {
+  float: left;
+  margin-right: 40px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.CollectionInfo .container-fluid .chooseWays .tabBtn .ways label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url('../../img/uncheck.png') no-repeat;
+}
+.CollectionInfo .container-fluid .chooseWays .tabBtn .ways .checked {
+  background: url('../../img/check.png') no-repeat;
+}
+.CollectionInfo .container-fluid .chooseWays .tabBtn .active {
+  color: #02a3f4;
+}
+.CollectionInfo .container-fluid .chooseWays .payWays {
+  width: 40%;
+  margin: 30px auto 40px ;
+  display: none;
+}
+.CollectionInfo .container-fluid .chooseWays .payWays form div {
+  margin-bottom: 15px;
+}
+.CollectionInfo .container-fluid .chooseWays .payWays form div label {
+  font-size: 16px;
+  color: #919699;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  display: block;
+}
+.CollectionInfo .container-fluid .chooseWays .payWays form div input {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  color: #bbbebf;
+  margin: 0;
+  padding-left: 12px;
+  border: 1px solid #e8e9eb;
+}
+.CollectionInfo .container-fluid .chooseWays .payWays form div span {
+  display: block;
+  color: #bbbebf;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.CollectionInfo .container-fluid .chooseWays .show {
+  display: block;
+}
+.CollectionInfo .container-fluid .UserInstructions {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.CollectionInfo .container-fluid .UserInstructions .left {
+  float: left;
+  width: 60%;
+  color: #bbbebf;
+}
+.CollectionInfo .container-fluid .UserInstructions .left p {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.CollectionInfo .container-fluid .UserInstructions .left ul {
+  margin: 0;
+}
+.CollectionInfo .container-fluid .UserInstructions .left ul li {
+  min-height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.CollectionInfo .container-fluid .UserInstructions .left ul li span {
+  float: left;
+  font-size: 12px;
+}
+.CollectionInfo .container-fluid .UserInstructions .left ul li .circle {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: #22a3f4;
+  margin-top: 8.5px;
+  margin-right: 5px;
+}
+.CollectionInfo .container-fluid .UserInstructions .right {
+  float: right;
+}
+.CollectionInfo .container-fluid .UserInstructions .right button {
+  width: 120px;
+  height: 40px;
+  background-color: #22a3f4;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0;
+  margin-top: 10px;
+  border: none;
+}

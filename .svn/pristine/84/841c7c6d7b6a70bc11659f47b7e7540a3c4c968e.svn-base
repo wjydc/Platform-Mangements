@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通知消息</title>
+    <link href="../../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" type="text/css" href="../../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/noval/noval.css">
+</head>
+<body> 
+
+<div class="myModal">
+   <div class="novalModal-body container" >
+            <div class="linkIcon">
+                <img src="../../../img/book3.png" alt="">
+            </div>
+            <p class="title row">
+                 <span class="col-md-3">阅读原文章节</span><span class="col-md-8" style='padding:0'>第三章：皇帝撒粉机上了飞机</span> 
+            </p>
+
+            
+            <form action="" class="container">
+                <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>派单渠道名称</span>
+                        <input class="col-md-8" type="text"></input> 
+                </div>
+
+                 <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>是否带号</span>
+                        <div class="radio getNum col-md-4">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">否
+                            </label>
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" >是
+                            </label>
+                        </div>
+                        <a href="#" class="col-md-3">什么是强制带号？</a>
+                </div>
+                
+                 <div  class="row">
+                        <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>带号章节</span>
+                       
+                        <select class="col-md-8">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                </div>
+              <input class="action" type="button" value="保存修改"></input>      
+            </form>
+
+      </div>
+
+</div>
+
+
+</body>
+ <script src='../../../PlugIn/jquery.min.js'></script>
+<script src="../../../PlugIn/bootstrap3/js/bootstrap.min.js"></script> 
+
+</script>
+<script>
+
+  
+</script>
+</html>
+

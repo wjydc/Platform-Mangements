@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet"  href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../../PlugIn/Datepicker/css/foundation-datepicker.min.css">
+        <link rel="stylesheet" href="../../css/bill/bill.css" type="text/css">
+        <link rel="stylesheet" href="../../css/publicConfigure/style.css" type="text/css">
+        
+    
+    </head>
+    <body>
+        <div class="channelState ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul id="myTab"  class="nav nav-tabs">
+                            <li class="active"><a href="#A" data-toggle="tab">关注欢迎语</a></li>
+                            <li><a href="#B" data-toggle="tab">关键词回复</a></li>
+                            <li><a href="#C" data-toggle="tab">自动回复</a></li>
+                        </ul>
+                    </div>
+                    <div class="promoteInputs col-sm-10">
+                           <div class="form-group col-sm-2">
+                                               <select class="form-control" style="position: absolute; top: -46px;left: 442px;">
+                                                    <option>麦子阅读</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                            </div>
+                           
+                     </div>
+
+                </div>
+
+           </div>
+            <!--搜索  -->
+          
+
+
+
+            <!--表格内容  -->
+           <div id="myTabContent" class="tab-content">  
+                <!--推广链接  -->
+                <div class="tab-pane fade in active text_center" id="A" >  
+                    <ul class="nav nav-tabs" id="myTab" >
+                      <li class="active"><a href="#home">当前样式</a></li>
+                      <li><a href="#profile">模板1</a></li>
+                      <li><a href="#messages">模板2</a></li>
+                      <li><a href="#settings">模板3</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="home">
+                      <div class="weui_media_box weui_media_appmsg">
+                              <div class="weui_media_hd"><img class="weui_media_appmsg_thumb f-r100" src="../../img/MZlogo.png" alt=""></div>
+                              <div class="weui_media_bd"> <span class="icon-left"></span>
+                                <p>欢迎关注麦子阅读，点我<a href="#">继续阅读</a></p>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="tab-pane" id="profile">
+                      <div class="weui_media_box weui_media_appmsg">
+                              <div class="weui_media_hd"><img class="weui_media_appmsg_thumb f-r100" src="../../img/MZlogo.png" alt=""></div>
+                              <div class="weui_media_bd"> <span class="icon-left"></span>
+                                <p>欢迎关注麦子阅读，点我<a href="#">继续阅读</a></p>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="tab-pane" id="messages">模板2</div>
+                      <div class="tab-pane" id="settings">模板3</div>
+                    </div>
+                    
+                    <button type="button" class="form-control form_gzh" >应用到公众号</button>
+                </div>  
+                
+                <!--关键词回复  -->
+                <div class="tab-pane fade" id="B">  
+                <div class="form-group col-sm-2">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <div type="button" class="form-control  Wordfilter"><i class="glyphicon glyphicon-plus"></i>添加关键词</div>
+         		</div>
+                     <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="pad">关键词</th>
+                                    <th>匹配</th>
+                                    <th class="text_L">回复内容</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>新书：盛夏光年</td>
+                                    <td>完全匹配</td>
+                                    <td class="text_L">新书推荐：https://run.mockplus.cn/index.html</td>
+                                   
+                                    <td  class="textcenter operaTion">
+                                        <div class="btn-group" role="group" aria-label="...">
+                                   
+                                            <button type="button" class="btn btn-default">修改</button>
+                                            <button type="button" class="btn btn-default">删除</button>
+        
+                                            
+                                      </div>
+                                    </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>新书：盛夏光年</td>
+                                    <td>完全匹配</td>
+                                    <td class="text_L">新书推荐：https://run.mockplus.cn/index.html</td>
+                                   
+                                    <td  class="textcenter operaTion">
+                                        <div class="btn-group" role="group" aria-label="...">
+                                   
+                                            <button type="button" class="btn btn-default">修改</button>
+                                            <button type="button" class="btn btn-default">删除</button>
+                                      </div>
+                                    </td>
+                                   
+                                </tr>
+                            </tbody>
+                    </table>
+                    <div class="tcdPageCode"></div>
+                </div>
+                <!--自动回复  -->
+                <div class="tab-pane fade text_center" id="C" >  
+                     <form>
+                        <div class="warnIcon ">
+                             <label for="exampleInputPassword1" class="reply" >回复内容</label>
+                             <textarea class="form-control" rows="11" placeholder="请输入内容...(最多600字)" style="border:none;box-sizing:border-box;"></textarea>
+                        </div>
+                       <button type="button" class="form-control form_gzh" >应用到公众号</button>
+                     </form>
+                </div>
+       
+       
+        
+            </div>  
+
+            <!--分页  -->
+            
+        </div>
+        
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src='../../PlugIn/jquery.page.js'></script>
+ <script src='../../PlugIn/Datepicker/js/foundation-datepicker.min.js'> </script>
+ <script src='../../PlugIn/Datepicker/js/locales/foundation-datepicker.zh-CN.js'>
+     
+ </script>
+  <script src="../../js/index.js"></script>
+<script>
+     $(".tcdPageCode").createPage({
+        pageCount:200,
+        current:1,
+        backFn:function(p){
+        }
+    });
+</script>
+<script>
+  $(function () {
+    $('#myTab a:first').tab('show');
+  })
+  $('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+<!--日历插件  -->
+<script>
+    $('#demo-1,#demo-2').fdatepicker({
+	    format: 'yyyy-mm-dd',
+		pickTime: false
+    });
+    var nowTemp = new Date();
+		var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+		var checkin = $('#dpd1').fdatepicker({
+			onRender: function (date) {
+				return date.valueOf() < now.valueOf() ? 'disabled' : '';
+			}
+		}).on('changeDate', function (ev) {
+			if (ev.date.valueOf() > checkout.date.valueOf()) {
+				var newDate = new Date(ev.date)
+				newDate.setDate(newDate.getDate() + 1);
+				checkout.update(newDate);
+			}
+			checkin.hide();
+			$('#dpd2')[0].focus();
+		}).data('datepicker');
+		var checkout = $('#dpd2').fdatepicker({
+			onRender: function (date) {
+				return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+			}
+		}).on('changeDate', function (ev) {
+			checkout.hide();
+		}).data('datepicker');
+</script>
+</html>
+
+

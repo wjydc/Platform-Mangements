@@ -1,0 +1,72 @@
+.siteSeting .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.siteSeting .title {
+  margin-bottom: 40px;
+}
+.siteSeting .title p {
+  font-size: 18px;
+  color: #919699;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 0 20px 35px;
+}
+.siteSeting .tableContent .form-horizontal {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.siteSeting .tableContent .form-horizontal .form-group {
+  margin-bottom: 20px;
+}
+.siteSeting .tableContent .form-horizontal .form-group .control-label {
+  color: #626262 ;
+}
+.siteSeting .tableContent .form-horizontal .form-group input {
+  color: #7d7d7d ;
+  border: 1px solid #f0f0f0;
+}
+.siteSeting .tableContent .form-horizontal .form-group .col-sm-10 label {
+  color: #ff3737 ;
+  display: none;
+  font-size: 12px;
+}
+.siteSeting .tableContent .form-horizontal .form-group .col-sm-10 label i {
+  margin-right: 5px;
+}
+.siteSeting .tableContent .form-horizontal .wchatIcon .control-label {
+  vertical-align: middle;
+  padding-top: 20px;
+}
+.siteSeting .tableContent .form-horizontal .wchatIcon .col-sm-5 img {
+  width: 80px;
+  height: 80px;
+}
+.siteSeting .tableContent .form-horizontal .wchatIcon .col-sm-3 .btn {
+  color: #22a3f4;
+  border-color: #22a3f4;
+}
+.siteSeting .tableContent .form-horizontal .wchatIcon .col-sm-3 span {
+  color: #bbbebf;
+}
+.siteSeting .submitBtn {
+  border-top: 1px solid #e8e9eb;
+  text-align: center;
+}
+.siteSeting .submitBtn button {
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  margin: 20px 15px;
+}
+.siteSeting .submitBtn .reset {
+  color: #22a3f4;
+  border-color: #22a3f4;
+}
+.siteSeting .submitBtn .save {
+  background-color: #22a3f4;
+  color: #fff;
+}
+.siteSeting .submitBtn .save:hover {
+  border: none;
+}

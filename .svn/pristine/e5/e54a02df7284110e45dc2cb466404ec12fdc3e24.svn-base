@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" href="../../css/publicConfigure/publicmenu.css" type="text/css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="../../PlugIn/Sortable/st/app.css"> -->
+        
+    </head>
+    <body>
+       <div class="publicNumMenu">
+           <!--标题  -->
+           <div class="container menuTitle">
+               <div class="row">
+                   <div class="colmd">
+                       <p>公众号菜单</p>
+                   </div>
+                    <div class="col-md-2">
+                        <select class="form-control">
+                            <option>麦子阅读</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+               </div>
+           </div>
+            <!--内容  -->
+            <div class="container menuDetail">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="menuSetup">
+                            <div>
+                                <p class="setupHead">麦子阅读</p>
+                            </div>
+                            <div class="menuSetupDetail">
+                              
+                                <div class="menuFooter" >
+                                    <div class="showcase showcase-1">
+                                        <div id="elements-container">
+                                            <div class="draggable-element d-1 cura">
+                                                
+                                                <ul id="target" class="new-sub">
+                                                    <li  class="drag"><a href="#">麦子阅读</a></li>
+                                                    <li  class="drag add"> + </li>
+                                                </ul>
+                                                <p>继续阅读</p>
+                                            </div>
+                                            <div class="draggable-element d-2">
+                                                <p>精品推荐</p>
+                                            </div>
+                                            <div class="draggable-element d-3">
+                                                <ul id="target" class="new-sub">
+                                                    <li  class="drag"><a href="#">用户中心</a></li>
+                                                    <li class="drag"><a href="#">体验中心</a></li>
+                                                    <li  class="drag add"> + </li>
+                                                </ul>
+                                                <p>用户中心</p>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>                                  
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="devideLine">
+                       <!-- <div>
+                           
+                       </div> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="delemenu">
+                            <span><i class="glyphicon glyphicon-trash"></i>删除菜单</span>
+                        </div>
+                        <div class="menutitle">
+                            <p>菜单名称</p>
+                           <form>
+                                <div class="form-group">
+                                    <label for="menuName"></label>
+                                    <input type="email" class="form-control" id="menuName" placeholder="菜单名称">
+                                </div>
+                            </form>
+                            <span>不超过4个汉字或8个字母</span>
+                        </div>
+                        <div class="menucontent">
+                             <p>内容</p>
+                            <div class="checkbox-inline">
+                                <label class="radio-inline active" href="#A" data-toggle="tab">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">跳转链接
+                                </label>
+                                <label class="radio-inline" href="#B" data-toggle="tab">
+                                 <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">发送消息
+                                </label> 
+                            </div>  
+                        </div>
+                        <div class="menuMessage tab-content"  id="myTabContent">
+                            <div class="Jumplink tab-pane fade in active" id='A'>
+                                <form class="form-inline">
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                                </div>
+                                <button type="button" class="btn btn-default publicLink">提取链接</button>
+                                </form>
+                            </div>
+                            <div class="sendMessage tab-pane fade" id='B'> 
+                               <textarea class="form-control" rows="3" placeholder="请输入内容...（最多600字）"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--保存， 应用到公众号  -->
+            <div class="PreApplication">
+                <input class="btn btn-default publicLeave" type="button" value="应用到公众号">
+                 <input class="btn btn-default" type="button" value="保存">
+            </div>
+
+
+       </div>
+
+
+
+<!-- 模态框 -->
+<!-- 删除 -->
+<!-- <div class="modal fade" id="myModalDele" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      </div>
+    </div>
+  </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src="../../js/index.js"></script>
+
+     <!--拖拽  -->
+<script src='../../PlugIn/HorizontalDrag/drag-arrange.js'></script>
+<script src='../../PlugIn/Verticaldrag/dargFlex.js'></script>
+
+<script>
+
+// 模态框
+// function modalDele(url){
+//     $('#myModalDele').modal()
+// }
+  
+// function myModals(){
+	
+    
+//      modalOut1("publicConfigure/publicModal.html");
+//  }
+
+
+
+
+
+
+
+
+
+
+ $(function() {
+     $('.draggable-element').arrangeable();
+	 
+});
+$(".draggable-element ").click(function() {
+    if ($(this).hasClass("cura")) {
+        $(this).children(".new-sub").hide(); //当前菜单下的二级菜单隐藏
+        $(".draggable-element ").removeClass("cura"); //同一级的菜单项
+    } else {
+        $(".draggable-element").removeClass("cura"); //移除所有的样式
+        $(this).addClass("cura"); //给当前菜单添加特定样式
+        $(".draggable-element ").children(".new-sub").slideUp("fast"); //隐藏所有的二级菜单
+        $(this).children(".new-sub").slideDown("fast"); //展示当前的二级菜单
+    }
+});
+
+	
+</script>
+
+</html>
+
+

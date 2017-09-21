@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../../PlugIn/Datepicker/css/foundation-datepicker.min.css">
+        <link  rel="stylesheet" type="text/css" href="../../PlugIn/Datepicker/css/foundation.min.css">
+        <link rel="stylesheet" href="../../css/bill/bill.css" type="text/css">
+       <link rel="stylesheet" type="text/css" href="../../css/cashRegister/register.css">
+    </head>
+    <body>
+        <div class="CashRegister">
+            <!--表单  -->
+            <div class="container-fluid">
+                <div class="row">
+                   <p class="title">提现记录</p>
+                </div>
+                <div class="CashList">
+                   <ul class="CashListul">
+                        <li class="CashListulli">
+                            <p class="listTilte">账号余额</p>
+                            <p class="listMoney"><span class="moneyIcon">￥</span><span>400.00</span></p>
+                        </li>
+                        <li class="CashListulli">
+                            <p class="listTilte">已提现</p>
+                              <p class="listMoney"><span class="moneyIcon">￥</span><span>400.00</span></p>
+                        </li>
+                        <li  class="CashListulli">
+                            <p class="listTilte">提现中</p>
+                             <p class="listMoney"><span class="moneyIcon">￥</span><span>400.00</span></p>
+                        </li>
+                        <li class="CashNote">
+                            <p class="listTilte">提现说明</p>
+                            <ul class="CashNoteList">
+                                <li>
+                                    <span class="circle"></span>
+                                    <span>系统每天凌晨0:00进行结算</span>
+                                </li>
+                                <li>
+                                     <span class="circle"></span>
+                                    <span>待提现金额满100元方可提现,12:00前的提现将在当日18:00前到账，12:00后的提现将顺延至下个工作日</span>
+                                </li>
+                                <li>
+                                     <span class="circle"></span>
+                                    <span>非工作日提现将在最近的工作日18:00 前到账</span>
+                                </li>
+                                <li>
+                                     <span class="circle"></span>
+                                    <span>如有疑问请联系您的客户经理</span></li>
+                               
+                            </ul>
+                        </li>
+                   </ul>
+
+                </div>
+                <div class="ApplyCash" data-toggle="modal" data-target="#CashRegister">
+                    <i class="glyphicon glyphicon-yen"></i>申请提现
+                </div>
+                <div class="calendar">
+                    <div class="calendarS">
+                          <input  type="text"  value="" id="demo-1">  
+                        <i class="glyphicon glyphicon-th"></i>
+                    </div>
+                    <span class="line">-</span>
+                    <div class="calendarS">
+                          <input  type="text"  value="" id="demo-2">  
+                        <i class="glyphicon glyphicon-th"></i>
+                    </div>
+                    
+                    <!--搜索按钮组  -->
+                    <!-- <div class="searchinfo">
+                        <input style="color:#e8e9eb " type="text" name="" value="" placeholder="请输入渠道名称...">
+                    </div>
+
+                    <div  class="searchinfo ">
+                        <input type="text" name="" value="" placeholder="请输入交易单号...">
+                    </div> -->
+
+                    <div  class="searchinfo selects">
+                        <select class="">
+                            <option>全部状态</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="search">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </div>
+                    
+                </div>
+            </div>
+               
+            <!--表格内容  -->
+            <!-- <div class="container-fluid"> -->
+                <div class="content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="width:20%">申请时间</th>
+                                <th>提现金额</th>
+                                <th >状态</th>
+                                <th  style="width:20%">打款时间</th>
+                                <th>操作</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td  style="width:20%">2017-07-25 17:54:23</td>
+                                <td>200.00</td>
+                                <td>交易成功</td>
+                                <td  style="width:20%">2017-07-25 17:54:23</td>
+                                <td>
+                                    <button type="button" class="btn  btn-block btn-default">查看</button>
+                                </td>
+                             
+                            </tr>
+
+                            <tr>
+                                <td  style="width:20%">2017-07-25 17:54:23</td>
+                                <td>200.00</td>
+                                <td>交易成功</td>
+                                <td  style="width:20%">2017-07-25 17:54:23</td>
+                                <td>
+                                    <button type="button" class="btn  btn-block btn-default">查看</button>
+                                </td>
+                             
+                            </tr>
+
+                           <tr>
+                                <td  style="width:20%">2017-07-25 17:54:23</td>
+                                <td>500.00</td>
+                                <td>等待处理</td>
+                                <td  style="width:20%">----</td>
+                                <td>
+                                    <button type="button" class="btn  btn-block btn-default">查看</button>
+                                </td>
+                             
+                            </tr>
+                           
+                         
+                        </tbody>
+                    </table>
+
+
+
+                </div> 
+           
+           
+
+           
+        </div>
+
+        <!--模态框  -->
+       
+<!-- Button trigger modal    data-toggle="modal" data-target="#myModal" -->
+
+
+ <!--信息完善提示  -->
+<div class="modal fade Public" id="messageTip" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p class="modal-title" id="myModalLabel">请完善提现信息</p>
+      </div>
+      <div class="modal-body">
+       <p class="SetMess">您还未设置财务信息，无法申请提现。 <br>请在财务信息内设置！</p>
+      </div>
+     
+        <button type="button" class="btn btn-default know">知道了</button>
+       
+    </div>
+  </div>
+</div>
+
+<!--申请提现  -->
+<div class="modal fade Public" id="GetCash" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p class="modal-title" id="myModalLabel">申请提现</p>
+      </div>
+      <div class="modal-body">
+          <div class="CashWithdrawal">
+              <p>输入提现金额</p>
+              <input type="text" class="form-control" placeholder="最多可提现108.88元">
+          </div>
+        <div class="CashTo">
+            <p>提现到</p>
+            <p class="CashWay">
+                <span>我的银行卡（21354321204513423）</span>
+                <span><i class="glyphicon glyphicon-ok"></i></span>
+            </p>
+            <p>请您认真核对金额及账户，一旦操作无法撤回</p>
+        </div>
+
+      </div>
+     
+        <button type="button" class="btn btn-default know">知道了</button>
+       
+    </div>
+  </div>
+</div>
+
+<!--提现记录  -->
+<div class="modal fade Public" id="CashRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p class="modal-title" id="myModalLabel">申请提现</p>
+      </div>
+      <div class="modal-body">
+         <p class="CashMessage">
+             <span class="left CashMessageTitle">提现金额</span><span class="left">108.80元</span>
+         </p>
+        
+         <p class="CashMessage">
+             <span class="left CashMessageTitle">状态</span><span class="left">交易成功</span>
+         </p>
+
+         <p class="CashMessage">
+             <span class="left CashMessageTitle">提现账号</span><span class="left">支付宝（1581646578）</span>
+         </p>
+
+         <p class="CashMessage">
+             <span class="left  CashMessageTitle">申请时间</span><span class="left">2017-07-25 17:54:23</span>
+         </p>
+
+         <p class="CashMessage">
+             <span class="left CashMessageTitle">打款时间</span><span class="left">2017-07-26 13:14:21</span>
+         </p>
+
+         <p class="CashMessage">
+             <span class="left CashMessageTitle">交易单号</span><span class="left">6878866789009089998909</span>
+         </p>
+
+      </div>
+     
+        <button type="button" class="btn btn-default know">确定</button>
+       
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src='../../PlugIn/jquery.page.js'></script>
+ <script src='../../PlugIn/Datepicker/js/foundation-datepicker.min.js'> </script>
+ <script src='../../PlugIn/Datepicker/js/locales/foundation-datepicker.zh-CN.js'>
+     
+ </script>
+  <script src="../../js/index.js"></script>
+
+<script>
+    
+</script>
+<script type="text/javascript">
+   
+</script>    
+<!--日历插件  -->
+<script>
+  
+</script>
+</html>
+
+

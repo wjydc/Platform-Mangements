@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通知消息</title>
+    <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/noval/noval.css">
+</head>
+<body>
+    <div class="novalCopy">
+       <div class="container">
+          <div class="novalCopyImg">
+              <p>有一两句；可不好；‘开办费导航栏’老板的烦恼了，不得分能力‘考虑白癜风</p>
+              <img src="http://cj.qirexiaoshuo.com/uploads/lm/2017/06/27/201706271120058252.png" alt="">
+          </div>
+
+          <!--文本内容  -->
+          <div class="novalContent">  
+              
+
+            <div class="template5">
+                <p class="temTitle"><span>第一章</span> 放在蒋凤仪破解过改</p>
+               
+                <div class="tepContent">
+                    <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+                    <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+                    迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+                    就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+                        <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+                        <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+                    迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+                    就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+                        <p>黎湘小时候酷爱吃螃蟹，一日在蒋凤仪没有注意到的时候，偷了一只大闸蟹塞到书包里，等蒋凤仪送她去幼儿园之后，便躲到了一处隐蔽的大树下大快朵颐。</p>
+                        <p>  吃完之后黎湘便感觉全身都在疼，直挺挺就倒了下去。
+                    迷迷糊糊中，她瞧见一个男孩穿着一身绅士的黑色小西装朝她走过来。
+                    就在黎湘以为自己瞧见了天使的那一刻，头顶的天使抱着手鄙夷地说道：“史克莱怪物。”</p>
+               </div>
+            
+                
+            </div>
+
+          </div>
+
+
+
+
+
+
+          <!--底部导航  -->
+          <div class="footerNav container">
+              <div class="row">
+                  <div class="col-md-10">
+                      <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <i class="glyphicon glyphicon-header"></i>文案标题
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li class="Copy"><a href="#">我哦咖啡我莪感觉我哦咖啡我莪感感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我感觉我哦咖啡我觉</a></li>
+                        <li class="Copy"><a href="#">Another action</a></li>
+                        <li class="Copy"><a href="#">Something else here</a></li>
+                        <li class="Copy"><a href="#">Separated link</a></li>
+                         <li class="Copy"><a href="#">Another action</a></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="glyphicon glyphicon-picture"></i>文案封面
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li class="Cover"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                        <li  class="Cover"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                        <li  class="Cover"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                        <li  class="Cover"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        正文模板
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li class="Template"><a href="#">无</a></li>
+                        <li class="Template"><a href="#"><img src="../../img/templateImg/body1.jpg" alt=""></a></li>
+                        <li class="Template"><a href="#"><img src="../../img/templateImg/body6.jpg" alt=""></a></li>
+                        <li class="Template"><a href="#"><img src="../../img/templateImg/body7.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                 <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       原文引导模板
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li class="guide"><a href="#"><img src="../../img/templateImg/body1.jpg" alt=""></a></li>
+                        <li class="guide"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                        <li class="guide"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                        <li class="guide"><a href="#"><img src="../../img/book3.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                 <div class="dropup">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="glyphicon glyphicon-duplicate"></i>复制
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li class="fuzhi"><a href="#">复制</a></li>
+                        <li  class="fuzhi"><a href="#">复制Another action</a></li>
+                        <li  class="fuzhi"><a href="#">复制Somlse here</a></li>
+                        <!-- <li role="separator" class="divider"></li> -->
+                        <li  class="fuzhi"><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+                  </div>
+
+
+                  <div class="col-md-2" data-toggle="modal" data-target="#myModalPro">
+                      <button type="button" class="btn btn-small btn-info InitLink">
+                          <i class="glyphicon glyphicon-paperclip"></i>生成原文链接</button>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </div>
+
+
+
+
+<!--模态框  -->
+<!--推广链接-模态框  -->
+<div class="modal fade" id="myModalPro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">生成推广链接</h4>
+              </div>
+              <div class="modal-body">
+      
+                  <div class="linkIcon">
+                      <img src="../../img/book3.png" alt="">
+                  </div>
+                  <p class="title row">
+                          <span class="col-md-3">阅读原文章节</span><span class="col-md-8" >第三章：皇帝撒粉机上了飞机</span> 
+                  </p>
+      
+                          
+                  <form action="" class="container">
+                      <div  class="row">
+                              <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>派单渠道名称</span>
+                              <input class="col-md-8" type="text"></input> 
+                      </div>
+      
+                          <div  class="row">
+                              <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>是否带号</span>
+                              <div class="radio getNum col-md-4">
+                                  <label>
+                                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">否
+                                  </label>
+                                  <label>
+                                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" >是
+                                  </label>
+                              </div>
+                              <a href="#" class="col-md-4" data-toggle="tooltip" data-placement="top" title="强制带号指用户阅读到指定章节时需
+                              关注公众号才可继续阅读，一般用在
+                              对外推广需要导粉时才设置。">什么是强制带号？</a> 
+                             
+                      </div>
+                      
+                          <div  class="row">
+                              <span class="col-md-3"><i class="glyphicon glyphicon-asterisk"></i>带号章节</span>
+                              
+                              <select class="col-md-8">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                              </select>
+                      </div>
+                      <!-- <input class="action" type="button" value="保存修改"></input>       -->
+                  </form>
+      
+              </div>
+              <!-- 底部按钮 -->
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default cancle" data-dismiss="modal">取消</button>
+                  <button type="button" class="btn btn-primary save">保存</button>
+              </div>
+          </div>
+        </div>
+      </div> 
+
+
+
+
+</body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<!--模态框  -->
+<!-- <script src='../../PlugIn/layer/layer/layer.js'> -->
+    
+</script>
+<script>
+// 模态框   生成原文链接
+// $('.InitLink').click(function(){
+//     layer.open({
+//     type: 2,
+//     title: '测试',
+//     maxmin: true,
+//     area: ['600px', '600px'],
+//     content:'./novalModal/novalCopyModal.html', 
+//     end: function(){
+//     }
+//   });
+// })
+  
+</script>
+</html>

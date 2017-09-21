@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <title>后台管理系统</title>
+        <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" type="" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" href="../../css/publicConfigure/numlist.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="publicConfigure">
+            <!--表单  -->
+            <div class="container-fluid">
+                <div class="row">
+                     <div class="publicTitle col-sm-2">
+                        <p>公众号列表</p>
+                    </div>
+                    
+                     <div class="publicInputs col-sm-10">
+                        
+                           <form class="form-inline row">
+                                <div class="form-group col-sm-4 col-sm-offset-5">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control"  placeholder="请输入小说名称...">
+                                </div>
+                                 <div class="form-group col-sm-1">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <div type="button" class="form-control submitss" ><i class="glyphicon glyphicon-search"></i></div>
+                                </div>
+
+                                <div class="form-group col-sm-2">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <div type="button" class="form-control addPublicNum" data-toggle="modal" data-target="#PublicmyModal"  ><i class="glyphicon glyphicon-plus"></i>添加公众号</div>
+                                </div>
+                               
+                                
+                               
+                            </form> 
+                     </div>
+                </div>
+                   
+            </div>
+               
+            <!--表格内容  -->
+            <div class="content">
+                 <table class="table">
+                     
+                    <thead>
+                        <tr>
+                            <th class="pubNUma">公众号名称</th>
+                            <th >AppID</th>
+                            <th>原始ID</th>
+                            <th >添加时间</th>
+                            <th style='width:28%'>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>麦子阅读1</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">提取链接</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal" ><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">提取链接</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal"><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+                        
+                         <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">提取链接</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal"><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                         <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">渠道统计</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal" ><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                         <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">渠道统计</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li  class="Publicchange" data-toggle="modal" data-target="#PublicmyModal"><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                         <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">渠道统计</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal"><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                         <tr>
+                            <td>
+                                <p>超越小说</p>
+                            </td>
+                            <td >
+                               <p class="AppID">wxf7sa765mn9deb2sa</p>
+                            </td>
+                            <td>
+                               <p>gh_csf88a</p>
+                            </td>
+                            <td>
+                                <p>2017-07-25 17:54:23</p>
+                            </td>
+                            <td style='width:28%' class="textcenter operaTion">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">渠道统计</button>
+                                    <button type="button" class="btn btn-default">同步模板</button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> . . .</button>
+                                        <ul class="dropdown-menu">
+                                            <li class="promoteDelet"><a href="#" class="delet">删除</a></li>
+                                            <li class="Publicchange" data-toggle="modal" data-target="#PublicmyModal" ><a href="#" class="change">修改</a></li>
+                                        </ul>
+                                    </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                    
+                      
+
+                    </tbody>
+                </table>
+
+
+
+            </div>
+
+            <!--分页  -->
+            <!-- <div class="tcdPageCode"></div> -->
+        </div>
+            
+<!--公众号配置-公众号列表修改.添加模态框  -->
+<div class="modal fade Public" id="PublicmyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+    <h4 class="modal-title" id="myModalLabel">添加公众号</h4>
+</div>
+<div class="modal-body">
+
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">公众号名称</label>
+        <input type="text" class="form-control novalName"  placeholder="公众号名称">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">AppID</label>
+        <input type="text" class="form-control AppID"  placeholder="AppID">
+    </div>
+
+    <div class="form-group">
+        <div class="warnIcon">
+             <label for="exampleInputPassword1">AppSecret</label>
+              <label class="warning" for="exampleInputPassword1">请输入AppSecret ! </label>
+        </div>
+       
+        <input  type="text" class="form-control AppSecret"  placeholder="AppSecret">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputPassword1">原始ID</label>
+        <input  type="text" class="form-control initID"  placeholder="原始ID">
+    </div>
+
+    <div class="form-group">
+        <div  class="warnIcon">
+            <label for="exampleInputPassword1">Token</label>
+            <label class="warning" for="exampleInputPassword1">请输入Token ! </label>
+        </div>
+        
+        <input  type="text" class="form-control Token"  placeholder="Token">
+    </div>
+</form>   
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default cancle" data-dismiss="modal">取消</button>
+    <button  type="button" class="btn btn-primary publicSave save">保存</button>
+</div>
+    </div>
+  </div>
+</div> 
+
+
+
+       
+
+
+
+
+    </body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../js/iframe.js'></script>
+ <script src="../../js/index.js"></script>
+ <script src='../../PlugIn/jquery.page.js'></script>
+<script>
+    //  $(".tcdPageCode").createPage({
+    //     pageCount:200,
+    //     current:1,
+    //     backFn:function(p){
+    //     }
+    // });
+
+  
+// function myModals(){
+//     var  _iframe = window.parent;
+//     _iframe.modalOut1("publicConfigure/publicModal.html");
+// }
+
+
+</script>
+</html>
+
+

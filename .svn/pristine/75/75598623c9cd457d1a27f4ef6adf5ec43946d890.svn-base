@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通知消息</title>
+    <link href="../../PlugIn/bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/noval/noval.css">
+</head>
+<body>
+    <div class="novalList">
+        <div style="width:100%;overflow:hidden;">
+          <div class="descript">
+             <img src="../../img/book3.png" alt="">
+             <p class="title">总裁报道，老公清洁值</p>
+             <p class="gray">作者：风兮兮</p>
+             <p class="gray">字数：125849</p>
+             <p class="brief">翻译是在准确、通顺的基础上，
+把一种语言信息转变成另一种语言信息的行为。翻译是将一种相对陌生的表达方式，
+转换成相对熟悉的表达方式的过程。
+其内容有语言、文字、图形、符号翻译是在准确、
+通顺的基础上，把一种语言信息转变成另一种语言信息的行为。
+翻译是将一种相对陌生的表达方式，转换成相对熟悉的表达方式的过程。
+其内容有语言、文字、图形、符号翻译是在准确、通顺的基础上，
+把一种语言信息转变成另一种语言信息的行为。
+翻译字词、短语和网页内容。
+             </p>  
+        </div>
+        
+        <div class="charpterList">
+            <ul>
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">1</span>
+                         <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="./novalCopy.html" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">2</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：与咖啡减与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡与咖啡减肥看风景咖啡肥看风景咖啡机</span>
+                      
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                 <li >
+                    <p class="charptertitle" >
+                        <span class="num">3</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                 <li >
+                    <p class="charptertitle" >
+                        <span class="num">4</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                      
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                 <li >
+                    <p class="charptertitle" >
+                        <span class="num">5</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                      
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">6</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">7</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">8</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                      
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">9</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                      
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">10</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                     
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">11</span>
+                        <span class="red">VIP</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+
+                <li >
+                    <p class="charptertitle" >
+                        <span class="num">12</span>
+                        <span class="orange">免费</span>
+                        <span class="title">第一章：再见前男友</span>
+                       
+                    </p>
+                    <a class="Extbtn" href="#" target="_blank">
+                        <span>生成推广文案</span>
+                    </a>
+                </li>
+            </ul> 
+        </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+   
+
+
+
+
+      
+        <!--分页  -->
+        <div class="tcdPageCode"></div>
+
+
+
+    </div>
+
+<!--模态框-章节详情  -->
+<div class="modal fade" id="charpterDetail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">第一章：据派单指数的高低进</h4>
+          </div>
+          <div class="modal-body">
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼。白日依山尽，黄河如海流，欲穷千里目，更上一层楼
+                白日依山尽，黄河如海流，欲穷千里目，更上一层楼白日依山尽，黄河如海流，欲穷千里目，更上一层楼v
+               </p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+               <p>白日依山尽，黄河如海流，欲穷千里目，更上一层楼</p>
+          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-info preCharpter" >上一章</button>
+            <button type="button" class="btn btn-info nexCharpter" >下一章</button>   
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+<script src='../../PlugIn/jquery.min.js'></script>
+<script src="../../PlugIn/bootstrap3/js/bootstrap.min.js"></script>
+<script src='../../PlugIn/jquery.page.js'></script>
+<script src='../../js/iframe.js'></script>
+<script src='../../js/index.js'>
+    
+</script>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:200,
+        current:1,
+        backFn:function(p){
+        }
+    });
+
+    $('.novalList .charpterList .charptertitle').each(function(index,item){
+    $(this).click(function(){
+        $('.novalList .charpterList .charptertitle').removeAttr('data-toggle');
+        $('.novalList .charpterList .charptertitle').removeAttr('data-target');
+        $('.novalList .charpterList .charptertitle').eq(index).attr({
+            'data-toggle':'modal',
+            'data-target': '#charpterDetail'
+        })
+
+    })
+})
+
+
+</script>
+</html>

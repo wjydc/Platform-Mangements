@@ -1,0 +1,32 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:30px;">&times;</span></button>
+    <h4 class="modal-title" id="myModalLabel">删除菜单</h4>
+</div>
+<div class="modal-body publilinking">
+   <p>
+       <span class="linkNmae">网站首页</span>
+       <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+   </p>
+     <p>
+       <span class="linkNmae">网站首页</span>
+       <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+   </p>
+
+    <p>
+       <span class="linkNmae">网站首页</span>
+       <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+   </p>
+
+    <p>
+       <span class="linkNmae">网站首页</span>
+       <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+   </p>
+
+    <p>
+       <span class="linkNmae">网站首页</span>
+       <span class="linkaddress">http://wap.hezibook.com/cid/9284d079</span>
+   </p>
+
+
+
+</div>

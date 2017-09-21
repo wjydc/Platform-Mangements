@@ -1,0 +1,180 @@
+.promotelink .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.promotelink .container-fluid .promoteTitle {
+  height: 50px;
+  line-height: 50px;
+}
+.promotelink .container-fluid .promoteTitle p {
+  border-top: 2px solid #22a3f4;
+  border-right: 1px solid #e8e9eb ;
+  color: #22a3f4;
+  font-size: 18px;
+  text-align: center;
+}
+.promotelink .container-fluid .promoteInputs {
+  min-height: 51px;
+  line-height: 51px;
+  border-bottom: 1px solid #e8e9eb ;
+}
+.promotelink .container-fluid .promoteInputs .col-sm-3,
+.promotelink .container-fluid .promoteInputs .col-sm-2,
+.promotelink .container-fluid .promoteInputs .col-sm-1 {
+  padding: 0 15px 0 0;
+}
+.promotelink .container-fluid .promoteInputs .row {
+  margin: 0;
+  padding-right: 10px;
+}
+.promotelink .container-fluid .promoteInputs .button {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.promotelink .container-fluid .promoteInputs .submitss {
+  background-color: #bfe7ff;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.col-sm-2 {
+  padding: 0;
+}
+.promotelink {
+  min-height: 100%;
+}
+.promotelink .content .table {
+  margin-top: 10px;
+}
+.promotelink .content .table tbody tr:hover {
+  background-color: #f2f6fa ;
+}
+.promotelink .content .table tbody tr {
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+}
+.promotelink .content .table tbody td {
+  vertical-align: middle;
+}
+.promotelink .content .table td .address {
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  cursor: pointer;
+  /* Internet Explorer 5.5+ */
+}
+.promotelink .content .table td .address i {
+  margin-left: 2px;
+}
+.promotelink .content .table .pad {
+  padding-left: 15px;
+}
+.promotelink .content .table .entranceCharpter a {
+  display: block;
+  overflow: hidden;
+}
+.promotelink .content .table .entranceCharpter a img {
+  width: 72px;
+  height: 90px;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+}
+.promotelink .content .table .entranceCharpter a div {
+  overflow: hidden;
+}
+.promotelink .content .table .entranceCharpter a div .tdTitle {
+  font-size: 16px;
+  color: #22a3f4;
+}
+.promotelink .content .table .entranceCharpter a div .gray {
+  font-size: 14px;
+}
+.promotelink .content .table .operation .btn,
+.promotelink .content .table .operation .btn-default {
+  border-radius: 4px;
+  margin-left: 10px;
+  border-color: #22a3f4;
+  color: #22a3f4;
+}
+.promotelink .content .table .operation .btn-group .btn {
+  border-radius: 4px;
+}
+.promotelink .content .table .operation .dropdown-menu {
+  min-width: 30px;
+  border: none;
+  background: url('../../img/action.png') no-repeat;
+  background-size: 100%;
+}
+.promotelink .content .table .operation .dropdown-menu a {
+  color: #fff;
+  line-height: 20px;
+}
+.promotelink .content .table .operation .dropdown-menu a:hover {
+  background-color: transparent;
+}
+.gray {
+  color: #919699 ;
+  font-size: 12px;
+}
+.modal-body .Tipbtn {
+  width: 60%;
+  margin: 50px auto 0;
+  height: 100px;
+  overflow: hidden;
+}
+.modal-body .Tipbtn button {
+  width: 100px;
+  height: 30px;
+  float: left;
+}
+.modal-body .linkIcon {
+  text-align: center;
+}
+.modal-body .linkIcon img {
+  width: 100px;
+  height: 150px;
+}
+.modal-body .title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.modal-body form i {
+  color: #ff5c4d ;
+  font-size: 10px;
+  margin-right: 3px;
+}
+.modal-body form .row {
+  margin: 10px 0;
+  line-height: 45px;
+}
+.modal-body form .row input,
+.modal-body form .row select {
+  height: 45px;
+}
+.modal-body form .row a.col-md-4 {
+  color: blue;
+}
+.modal-body form .action {
+  background-color: #ff5c4d;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  outline: none;
+}
+.modal-body form .radio {
+  margin: 0;
+}
+.modal-body form input[type='radio'] {
+  margin: 0 0 0 -20px;
+  border-radius: 50%;
+}
